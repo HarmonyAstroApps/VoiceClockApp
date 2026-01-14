@@ -1,0 +1,99 @@
+website-root/
+│
+├── .github/                    # GitHub specific configurations
+│   └── workflows/             
+│       └── deploy.yml         # GitHub Actions deployment workflow
+│
+├── public/                    # Static assets
+│   ├── favicon.ico
+│   ├── images/
+│   │   ├── logos/
+│   │   └── content/
+│   └── fonts/
+│
+├── src/                       # Source code
+│   ├── components/            # Reusable React components
+│   │   ├── layout/           # Layout components
+│   │   │   ├── Header.tsx
+│   │   │   ├── Footer.tsx
+│   │   │   ├── Navbar.tsx
+│   │   │   └── Layout.tsx    # Main layout wrapper
+│   │   │
+│   │   ├── common/           # Common UI components
+│   │   │   ├── Button.tsx
+│   │   │   ├── Card.tsx
+│   │   │   ├── Input.tsx
+│   │   │   └── Modal.tsx
+│   │   │
+│   │   └── sections/         # Page-specific sections
+│   │       ├── Hero.tsx
+│   │       ├── Features.tsx
+│   │       └── Contact.tsx
+│   │
+│   ├── content/              # Content in Markdown
+│   │   ├── posts/           # Blog posts
+│   │   │   └── getting-started.md
+│   │   └── pages/           # Static pages content
+│   │       └── about.md
+│   │
+│   ├── styles/              # Styling
+│   │   ├── globals.css      # Global styles
+│   │   └── tailwind.css     # Tailwind entry file
+│   │
+│   ├── lib/                 # Utility functions and helpers
+│   │   ├── api.ts          # API related functions
+│   │   ├── mdx.ts         # Markdown processing
+│   │   └── utils.ts       # General utilities
+│   │
+│   ├── pages/              # Next.js pages
+│   │   ├── _app.tsx       # App wrapper
+│   │   ├── _document.tsx  # Document wrapper
+│   │   ├── index.tsx      # Homepage
+│   │   ├── about.tsx      # About page
+│   │   ├── blog/
+│   │   │   ├── index.tsx  # Blog listing
+│   │   │   └── [slug].tsx # Dynamic blog post page
+│   │   └── 404.tsx        # Custom 404 page
+│   │
+│   └── types/             # TypeScript type definitions
+│       ├── common.ts
+│       └── content.ts
+│
+├── .gitignore             # Git ignore rules
+├── .eslintrc.js          # ESLint configuration
+├── .prettierrc           # Prettier configuration
+├── next.config.js        # Next.js configuration
+├── tailwind.config.js    # Tailwind configuration
+├── tsconfig.json         # TypeScript configuration
+├── package.json          # Project dependencies and scripts
+└── README.md            # Project documentation
+
+Key Files Explained:
+
+1. Configuration Files:
+   - next.config.js: Configure Next.js behavior
+   - tailwind.config.js: Customize Tailwind design system
+   - package.json: Manage dependencies and scripts
+   - tsconfig.json: TypeScript compiler options
+
+2. Core Components:
+   - Layout.tsx: Main layout wrapper for consistent page structure
+   - Header.tsx: Site header with navigation
+   - Footer.tsx: Site footer with links and info
+   - Navbar.tsx: Navigation menu
+
+3. Common Components:
+   - Button.tsx: Reusable button component
+   - Card.tsx: Content card component
+   - Input.tsx: Form input component
+   - Modal.tsx: Popup/modal component
+
+4. Content Management:
+   - content/: Markdown files for blog posts and pages
+   - public/images/: Image assets
+   - styles/: CSS and Tailwind styles
+
+5. Utility Functions:
+   - lib/api.ts: API-related functions
+   - lib/mdx.ts: Markdown processing utilities
+   - lib/utils.ts: General helper functions
