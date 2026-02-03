@@ -15,6 +15,11 @@
             <div class="logo">
                 <h2>Voice Clock Time Speaker</h2>
             </div>
+            <button class="hamburger" aria-label="Toggle menu" aria-expanded="false">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
             <div class="nav-links">
                 <button id="langToggle" class="lang-toggle">日本語</button>
                 <a href="#features" data-i18n="nav.features">Features</a>
@@ -281,5 +286,28 @@
 </footer>
 <script src="src/scripts/screenshot-scroll.js"></script>
 <script src="src/scripts/translations.js"></script>
+<script>
+    // Mobile hamburger menu toggle
+    const hamburger = document.querySelector('.hamburger');
+    const navLinks = document.querySelector('.nav-links');
+    
+    hamburger.addEventListener('click', () => {
+        hamburger.classList.toggle('active');
+        navLinks.classList.toggle('active');
+        hamburger.setAttribute('aria-expanded', 
+            hamburger.classList.contains('active').toString());
+        document.body.style.overflow = hamburger.classList.contains('active') ? 'hidden' : '';
+    });
+    
+    // Close mobile menu when clicking a link
+    navLinks.querySelectorAll('a').forEach(link => {
+        link.addEventListener('click', () => {
+            hamburger.classList.remove('active');
+            navLinks.classList.remove('active');
+            hamburger.setAttribute('aria-expanded', 'false');
+            document.body.style.overflow = '';
+        });
+    });
+</script>
 </body>
 </html>

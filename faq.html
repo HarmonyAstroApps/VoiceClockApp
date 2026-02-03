@@ -17,6 +17,11 @@
                     <h2>Voice Clock Time Speaker</h2>
                 </a>
             </div>
+            <button class="hamburger" aria-label="Toggle menu" aria-expanded="false">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
             <div class="nav-links">
                 <a href="index.html#features">Features</a>
                 <a href="index.html#contact">Contact</a>
@@ -594,6 +599,28 @@
     </footer>
 
     <script>
+        // Mobile hamburger menu toggle
+        const hamburger = document.querySelector('.hamburger');
+        const navLinks = document.querySelector('.nav-links');
+        
+        hamburger.addEventListener('click', () => {
+            hamburger.classList.toggle('active');
+            navLinks.classList.toggle('active');
+            hamburger.setAttribute('aria-expanded', 
+                hamburger.classList.contains('active').toString());
+            document.body.style.overflow = hamburger.classList.contains('active') ? 'hidden' : '';
+        });
+        
+        // Close mobile menu when clicking a link
+        navLinks.querySelectorAll('a').forEach(link => {
+            link.addEventListener('click', () => {
+                hamburger.classList.remove('active');
+                navLinks.classList.remove('active');
+                hamburger.setAttribute('aria-expanded', 'false');
+                document.body.style.overflow = '';
+            });
+        });
+
         // FAQ Accordion functionality
         document.querySelectorAll('.faq-question').forEach(button => {
             button.addEventListener('click', () => {
