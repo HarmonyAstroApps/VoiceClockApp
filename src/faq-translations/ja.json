@@ -1,0 +1,31 @@
+{
+  "contactSection": {
+    "buttonText": "お問い合わせ",
+    "description": "お気軽にお問い合わせください。できるだけ早くお返事いたします。",
+    "title": "まだご質問がありますか？"
+  },
+  "footer": {
+    "copyright": "© 2024 Voice Clock Time Speaker. All rights reserved."
+  },
+  "hero": {
+    "subtitle": "Voice Clock Time Speakerについて知りたいことすべて",
+    "title": "よくある質問"
+  },
+  "meta": {
+    "pageDescription": "Voice Clock Time Speakerに関するよくある質問 - バックグラウンド動作、サウンド、スケジュールアナウンスなどについて。",
+    "pageTitle": "よくある質問 - Voice Clock Time Speaker"
+  },
+  "nav": {
+    "contact": "お問い合わせ",
+    "faq": "よくある質問",
+    "features": "機能",
+    "home": "ホーム",
+    "privacy": "プライバシーポリシー"
+  },
+  "quickNav": {
+    "backgroundMode": "バックグラウンド",
+    "general": "一般",
+    "scheduledAnnouncements": "スケジュール",
+    "sounds": "サウンド"
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "contactSection": {
+    "buttonText": "문의하기",
+    "description": "언제든 기꺼이 도와드리겠습니다! 연락주시면 가능한 빨리 답변드리겠습니다.",
+    "title": "아직 질문이 있으신가요?"
+  },
+  "footer": {
+    "copyright": "© 2024 Voice Clock Time Speaker. All rights reserved."
+  },
+  "hero": {
+    "subtitle": "Voice Clock Time Speaker에 대해 알아야 할 모든 것",
+    "title": "자주 묻는 질문"
+  },
+  "meta": {
+    "pageDescription": "Voice Clock Time Speaker에 대한 자주 묻는 질문 - 백그라운드 작동, 사운드, 예약 알림 등에 대해 알아보세요.",
+    "pageTitle": "자주 묻는 질문 - Voice Clock Time Speaker"
+  },
+  "nav": {
+    "contact": "문의",
+    "faq": "FAQ",
+    "features": "기능",
+    "home": "홈",
+    "privacy": "개인정보 보호정책"
+  },
+  "quickNav": {
+    "backgroundMode": "백그라운드",
+    "general": "일반",
+    "scheduledAnnouncements": "예약 알림",
+    "sounds": "사운드"
+  }
+}

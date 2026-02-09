@@ -1,0 +1,31 @@
+{
+  "contactSection": {
+    "buttonText": "联系我们",
+    "description": "我们随时乐意为您提供帮助！联系我们，我们会尽快回复。",
+    "title": "还有其他问题？"
+  },
+  "footer": {
+    "copyright": "© 2024 Voice Clock Time Speaker. 保留所有权利。"
+  },
+  "hero": {
+    "subtitle": "关于 Voice Clock Time Speaker 您需要了解的一切",
+    "title": "常见问题"
+  },
+  "meta": {
+    "pageDescription": "Voice Clock Time Speaker 常见问题解答 - 了解后台运行、声音、定时播报等功能。",
+    "pageTitle": "常见问题 - Voice Clock Time Speaker"
+  },
+  "nav": {
+    "contact": "联系我们",
+    "faq": "常见问题",
+    "features": "功能",
+    "home": "首页",
+    "privacy": "隐私政策"
+  },
+  "quickNav": {
+    "backgroundMode": "后台模式",
+    "general": "常规",
+    "scheduledAnnouncements": "定时播报",
+    "sounds": "声音"
+  }
+}

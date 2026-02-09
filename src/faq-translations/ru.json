@@ -1,0 +1,31 @@
+{
+  "contactSection": {
+    "buttonText": "Связаться с нами",
+    "description": "Мы всегда рады помочь! Свяжитесь с нами, и мы ответим как можно скорее.",
+    "title": "Остались вопросы?"
+  },
+  "footer": {
+    "copyright": "© 2024 Voice Clock Time Speaker. Все права защищены."
+  },
+  "hero": {
+    "subtitle": "Всё, что вам нужно знать о Voice Clock Time Speaker",
+    "title": "Часто задаваемые вопросы"
+  },
+  "meta": {
+    "pageDescription": "Часто задаваемые вопросы о Voice Clock Time Speaker - Узнайте о фоновой работе, звуках, запланированных объявлениях и многом другом.",
+    "pageTitle": "Часто задаваемые вопросы - Voice Clock Time Speaker"
+  },
+  "nav": {
+    "contact": "Контакты",
+    "faq": "FAQ",
+    "features": "Функции",
+    "home": "Главная",
+    "privacy": "Политика конфиденциальности"
+  },
+  "quickNav": {
+    "backgroundMode": "Фоновый режим",
+    "general": "Общие",
+    "scheduledAnnouncements": "Расписание",
+    "sounds": "Звуки"
+  }
+}

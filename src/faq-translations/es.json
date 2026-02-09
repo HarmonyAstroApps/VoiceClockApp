@@ -1,0 +1,31 @@
+{
+  "contactSection": {
+    "buttonText": "Contáctanos",
+    "description": "¡Siempre estamos felices de ayudar! Contáctanos y te responderemos lo antes posible.",
+    "title": "¿Aún tienes preguntas?"
+  },
+  "footer": {
+    "copyright": "© 2024 Voice Clock Time Speaker. Todos los derechos reservados."
+  },
+  "hero": {
+    "subtitle": "Todo lo que necesitas saber sobre Voice Clock Time Speaker",
+    "title": "Preguntas Frecuentes"
+  },
+  "meta": {
+    "pageDescription": "Preguntas frecuentes sobre Voice Clock Time Speaker - Aprenda sobre la operación en segundo plano, sonidos, anuncios programados y más.",
+    "pageTitle": "Preguntas Frecuentes - Voice Clock Time Speaker"
+  },
+  "nav": {
+    "contact": "Contacto",
+    "faq": "FAQ",
+    "features": "Características",
+    "home": "Inicio",
+    "privacy": "Política de Privacidad"
+  },
+  "quickNav": {
+    "backgroundMode": "Segundo Plano",
+    "general": "General",
+    "scheduledAnnouncements": "Programados",
+    "sounds": "Sonidos"
+  }
+}
