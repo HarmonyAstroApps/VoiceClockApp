@@ -1,4 +1,66 @@
 {
+  "sections": [
+    {
+      "description": "Erfahren Sie, wie Voice Clock Time Speaker nahtlos im Hintergrund funktioniert",
+      "questions": [
+        {
+          "a": "<p>Ja! Voice Clock Time Speaker ist so konzipiert, dass es kontinuierlich im Hintergrund läuft. Sobald Sie die Ansagen starten und die App minimieren, wird die Uhrzeit in den von Ihnen gewählten Intervallen weiterhin angesagt – auch wenn Sie andere Apps verwenden oder Ihr Bildschirm gesperrt ist.</p>",
+          "q": "Kann die App die Uhrzeit im Hintergrund ansagen?"
+        },
+        {
+          "a": "<p>Wir haben die App so optimiert, dass sie nur minimal Akku verbraucht. Die App nutzt effiziente Hintergrund-Audio-Funktionen und wird nur kurz aktiv, um die Uhrzeit anzusagen. Die meisten Benutzer berichten von einem vernachlässigbaren Akkuverbrauch, selbst bei durchgehender Nutzung über den ganzen Tag.</p>",
+          "q": "Verbraucht die App viel Akku, wenn sie im Hintergrund läuft?"
+        },
+        {
+          "a": "<p><strong>Ja!</strong> Voice Clock ist speziell dafür entwickelt, neben anderen Audio-Apps zu funktionieren. Sie können Musik, Podcasts, Hörbücher oder andere Audioinhalte hören und gleichzeitig Zeitansagen empfangen.</p><p>Beim Musikhören wird die Musiklautstärke kurzzeitig verringert, die Uhrzeit angesagt und dann die Musik auf die ursprüngliche Lautstärke zurückgesetzt. Während Telefonaten werden die Ansagen automatisch pausiert und nach Beendigung des Anrufs fortgesetzt.</p>",
+          "q": "Kann ich Voice Clock verwenden, während ich Musik höre oder andere Audio-Apps nutze?"
+        }
+      ],
+      "title": "Hintergrundbetrieb",
+      "id": "background-capability",
+      "icon": "fa-mobile-screen-button"
+    },
+    {
+      "description": "Entdecken Sie die Vielfalt der verfügbaren Stimmen und Klangoptionen",
+      "questions": [
+        {
+          "a": "<p>Voice Clock Time Speaker bietet eine große Auswahl an Stimmen, darunter:</p><ul><li><strong>Systemstimmen:</strong> Hochwertige Text-to-Speech-Stimmen in über 15 Sprachen, darunter Englisch (mehrere Akzente), Japanisch, Spanisch, Französisch, Deutsch und mehr</li><li><strong>Männliche & weibliche Optionen:</strong> Wählen Sie für die meisten Sprachen zwischen verschiedenen Geschlechtern</li><li><strong>Erweiterte Stimmen:</strong> Premium-Siri-Qualitätsstimmen, sofern auf Ihrem Gerät verfügbar</li></ul>",
+          "q": "Welche Stimmoptionen sind verfügbar?"
+        }
+      ],
+      "title": "Sounds & Stimmoptionen",
+      "id": "sounds",
+      "icon": "fa-volume-high"
+    },
+    {
+      "description": "Richten Sie den perfekten Ansagenzeitplan für Ihren Alltag ein",
+      "questions": [
+        {
+          "a": "<p>Voice Clock bietet zwei Möglichkeiten, die Uhrzeit anzusagen:</p><div class=\"faq-info-box\"><div class=\"faq-info-item\"><i class=\"fas fa-play-circle\"></i><div><strong>Normale Ansagen</strong><p>Werden durch Drücken der <strong>Start-Taste</strong> auf der Hauptseite gestartet. Diese können <strong>unbegrenzt</strong> im Hintergrund ohne Einschränkungen laufen. Perfekt für kontinuierliches Zeitbewusstsein den ganzen Tag über.</p></div></div><div class=\"faq-info-item\"><i class=\"fas fa-calendar-alt\"></i><div><strong>Geplante Ansagen</strong><p>Starten <strong>automatisch</strong> zu den von Ihnen konfigurierten Zeiten. Diese sind aufgrund von iOS-Einschränkungen auf 64 Ansagen begrenzt. Perfekt für Weckalarme oder Erinnerungen zu bestimmten Zeiten.</p></div></div></div>",
+          "q": "Was ist der Unterschied zwischen normalen und geplanten Ansagen?"
+        }
+      ],
+      "title": "Geplante Ansagen",
+      "id": "scheduled-announcements",
+      "icon": "fa-calendar-check"
+    },
+    {
+      "description": "Allgemeine Fragen zur App",
+      "questions": [
+        {
+          "a": "<p>Die App bietet eine kostenlose Version mit grundlegenden Funktionen. Für erweiterte Anpassungsoptionen, zusätzliche Stimmen und ein werbefreies Erlebnis können Sie auf die Pro-Version upgraden.</p>",
+          "q": "Ist Voice Clock Time Speaker kostenlos?"
+        },
+        {
+          "a": "<p>Ihr Abonnement bleibt gültig, auch wenn die App gelöscht und neu installiert wurde. Um Ihren Kauf wiederherzustellen:</p><ol class=\"faq-steps\"><li>Öffnen Sie die App</li><li>Tippen Sie oben neben der Überschrift <strong>\"Voice Clock\"</strong> auf den Button <strong>\"Go Pro\"</strong></li><li>Tippen Sie am unteren Bildschirmrand auf <strong>\"Kauf wiederherstellen\"</strong></li><li>Ihre Premium-Mitgliedschaft wird automatisch wiederhergestellt</li></ol><p>Wenn Sie Probleme haben, diese Buttons zu finden oder Ihren Kauf wiederherzustellen, <a href=\"mailto:harmonyastroapp@gmail.com\">kontaktieren Sie uns</a> bitte und wir helfen Ihnen gerne mit einer Schritt-für-Schritt-Anleitung.</p>",
+          "q": "Ich habe die App neu installiert. Wie stelle ich meinen Pro-Kauf wieder her?"
+        }
+      ],
+      "title": "Allgemeine Fragen",
+      "id": "general",
+      "icon": "fa-circle-question"
+    }
+  ],
   "contactSection": {
     "buttonText": "Kontaktieren Sie uns",
     "description": "Wir helfen Ihnen gerne! Kontaktieren Sie uns und wir melden uns so schnell wie möglich.",
