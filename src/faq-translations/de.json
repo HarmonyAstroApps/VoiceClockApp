@@ -14,6 +14,18 @@
         {
           "a": "<p><strong>Ja!</strong> Voice Clock ist speziell dafür entwickelt, neben anderen Audio-Apps zu funktionieren. Sie können Musik, Podcasts, Hörbücher oder andere Audioinhalte hören und gleichzeitig Zeitansagen empfangen.</p><p>Beim Musikhören wird die Musiklautstärke kurzzeitig verringert, die Uhrzeit angesagt und dann die Musik auf die ursprüngliche Lautstärke zurückgesetzt. Während Telefonaten werden die Ansagen automatisch pausiert und nach Beendigung des Anrufs fortgesetzt.</p>",
           "q": "Kann ich Voice Clock verwenden, während ich Musik höre oder andere Audio-Apps nutze?"
+        },
+        {
+          "a": "<p>Die Hintergrund-Audio-Berechtigung ist erforderlich, damit die App weiterhin Zeitansagen sprechen kann, wenn Sie die App nicht aktiv verwenden. Dies ist eine Standard-iOS-Berechtigung, die es Audio-Apps ermöglicht, im Hintergrund zu funktionieren. Ohne diese würden die Ansagen stoppen, sobald Sie die App verlassen.</p>",
+          "q": "Warum muss ich die Hintergrund-Audio-Berechtigung erteilen?"
+        },
+        {
+          "a": "<p>Öffnen Sie einfach die App und tippen Sie auf die Stopp-Taste, oder verwenden Sie das Kontrollzentrum, um das Audio zu stoppen. Sie können auch Ruhezeiten in den App-Einstellungen einrichten, um Ansagen automatisch während bestimmter Zeiten wie Schlafstunden zu pausieren.</p>",
+          "q": "Wie stoppe ich die Hintergrundansagen?"
+        },
+        {
+          "a": "<p><strong>Nein!</strong> Wenn Sie Ansagen mit der Start-Taste von der Hauptseite starten, können sie <strong>unbegrenzt</strong> im Hintergrund ohne Einschränkungen laufen. Die App nutzt die Hintergrund-Audio-Fähigkeit, um die Zeit so lange anzusagen, wie Sie es benötigen.</p><p>Sie können die App minimieren, Ihren Bildschirm sperren oder andere Apps verwenden—die Ansagen werden ohne Begrenzung fortgesetzt.</p><p><strong>Hinweis:</strong> Dies gilt für normale, manuell gestartete Ansagen. Geplante Ansagen (die automatisch starten) haben andere Einschränkungen—siehe den Abschnitt <a href=\"#scheduled-announcements\">Geplante Ansagen</a> für Details.</p>",
+          "q": "Gibt es eine Begrenzung"
         }
       ],
       "title": "Hintergrundbetrieb",
@@ -21,14 +33,46 @@
       "icon": "fa-mobile-screen-button"
     },
     {
-      "description": "Entdecken Sie die Vielfalt der verfügbaren Stimmen und Klangoptionen",
       "questions": [
         {
           "a": "<p>Voice Clock Time Speaker bietet eine große Auswahl an Stimmen, darunter:</p><ul><li><strong>Systemstimmen:</strong> Hochwertige Text-to-Speech-Stimmen in über 15 Sprachen, darunter Englisch (mehrere Akzente), Japanisch, Spanisch, Französisch, Deutsch und mehr</li><li><strong>Männliche & weibliche Optionen:</strong> Wählen Sie für die meisten Sprachen zwischen verschiedenen Geschlechtern</li><li><strong>Erweiterte Stimmen:</strong> Premium-Siri-Qualitätsstimmen, sofern auf Ihrem Gerät verfügbar</li></ul>",
           "q": "Welche Stimmoptionen sind verfügbar?"
+        },
+        {
+          "a": "<p>Ja! Sie können die Sprechgeschwindigkeit nach Ihren Vorlieben anpassen. Verlangsamen Sie sie für klarere Aussprache oder beschleunigen Sie sie für schnelle Zeitüberprüfungen. Die Stimmeinstellungen sind einfach über das Haupteinstellungsmenü zugänglich.</p>",
+          "q": "Kann ich Stimmgeschwindigkeit und Tonhöhe anpassen?"
+        },
+        {
+          "a": "<p>Absolut! Wir unterstützen über 15 Sprachen mit nativer Aussprache:</p><ul><li>Englisch (US, UK, australische, indische Akzente)</li><li>Japanisch, Chinesisch (Mandarin, Kantonesisch)</li><li>Spanisch, Französisch, Deutsch, Italienisch, Portugiesisch</li><li>Koreanisch, Hindi, Arabisch, Russisch</li><li>Und viele mehr!</li></ul>",
+          "q": "Unterstützt die App mehrere Sprachen?"
+        },
+        {
+          "a": "<p>Ja! Sie können einen Vor-Ansage-Gong oder -Ton aktivieren, um Ihre Aufmerksamkeit zu erlangen, bevor die Zeit gesprochen wird. Dies ist besonders hilfreich, wenn Sie sich auf eine Aufgabe konzentrieren und ein akustisches Signal benötigen, dass die Zeitansage kommt.</p>",
+          "q": "Kann ich einen Ton vor der Zeitansage hinzufügen?"
+        },
+        {
+          "a": "<p>Die Ansagen folgen der Audio-Weiterleitung Ihres Geräts. Wenn Sie Kopfhörer oder Bluetooth-Lautsprecher angeschlossen haben, wird die Zeit über diese angesagt. Wenn nichts angeschlossen ist, wird sie über den Lautsprecher Ihres Geräts wiedergegeben. Dies macht es perfekt für privates Hören oder das Teilen mit anderen im Raum.</p>",
+          "q": "Werden die Ansagen über meine Kopfhörer oder Lautsprecher wiedergegeben?"
+        },
+        {
+          "a": "<p>Die Ansagelautstärke folgt der Medien-Lautstärke Ihres Geräts. Verwenden Sie die physischen Lautstärketasten oder das Kontrollzentrum zum Anpassen. Einige Benutzer bevorzugen die App beim Kochen oder Sport, daher stellt eine höhere Lautstärke sicher, dass Sie nie ein Zeit-Update verpassen.</p>",
+          "q": "Wie ändere ich die Lautstärke der Ansagen?"
+        },
+        {
+          "q": "Mein Handy hat Siri-Stimme, aber ich sehe sie nicht in der App. Warum?",
+          "a": "<p>Siri-Stimmen sind Eigentum von Apple und werden ausschließlich von ihnen kontrolliert. Apple hält Siris Stimme absichtlich von Drittanbieter-Apps getrennt, um eine klare Unterscheidung zwischen Siri (Apples Assistent) und anderen App-Stimmen aufrechtzuerhalten.</p><p>Aufgrund dieser Einschränkung erlaubt Apple Apps wie Voice Clock nicht, auf Siri-Stimmen zuzugreifen. Die App zeigt alle Stimmen an, die Apple Entwicklern für Ihr Gerät zur Verfügung stellt—was immer noch viele hochwertige Optionen in mehreren Sprachen und Akzenten umfasst.</p>"
+        },
+        {
+          "q": "Werden Sie in Zukunft mehr KI-Stimmen hinzufügen?",
+          "a": "<p>Während das Hinzufügen von cloud-basierten KI-Stimmen technisch möglich ist, gibt es erhebliche Herausforderungen:</p><ul><li><strong>Internet-Abhängigkeit:</strong> KI-Stimmen benötigen eine ständige Internetverbindung, die nicht immer verfügbar ist</li><li><strong>Zuverlässigkeit:</strong> Netzwerkprobleme könnten dazu führen, dass Ansagen fehlschlagen oder verzögert werden</li><li><strong>Kosten:</strong> Cloud-KI-Dienste würden die Betriebskosten der App erheblich erhöhen, was an die Benutzer weitergegeben werden müsste</li></ul><p>Wir erforschen aktiv Lösungen, die diese Herausforderungen angehen könnten, während wir die Zuverlässigkeit und Erschwinglichkeit der App beibehalten. Bleiben Sie dran für zukünftige Updates!</p>"
+        },
+        {
+          "q": "Kann ich die Geschwindigkeit der Sekundenansagen anpassen?",
+          "a": "<p>Derzeit kann die Geschwindigkeit der Sekundenansagen nicht angepasst werden. Hier ist der Grund:</p><p>Beim Ansagen von Sekunden wie \"55\" oder \"59\" dauern die gesprochenen Wörter länger als kleinere Zahlen wie \"1\" oder \"5\". Die Ansage muss innerhalb einer Sekunde abgeschlossen sein, bevor die nächste Sekunde eintrifft. Verschiedene Sprachen haben auch unterschiedliche Wortlängen für Zahlen—einige Sprachen benötigen mehr Silben, um dieselbe Zahl auszudrücken.</p><p>Um genaue Echtzeit-Ansagen in allen unterstützten Sprachen zu gewährleisten, verwendet die Sekundenansage ein schnelleres, optimiertes Tempo. Dies garantiert, dass auch längere Zahlen vollständig gesprochen werden, bevor die nächste Sekunde beginnt.</p>"
         }
       ],
       "title": "Sounds & Stimmoptionen",
+      "description": "Entdecken Sie die Vielfalt der verfügbaren Stimmen und Klangoptionen",
       "id": "sounds",
       "icon": "fa-volume-high"
     },
@@ -38,6 +82,46 @@
         {
           "a": "<p>Voice Clock bietet zwei Möglichkeiten, die Uhrzeit anzusagen:</p><div class=\"faq-info-box\"><div class=\"faq-info-item\"><i class=\"fas fa-play-circle\"></i><div><strong>Normale Ansagen</strong><p>Werden durch Drücken der <strong>Start-Taste</strong> auf der Hauptseite gestartet. Diese können <strong>unbegrenzt</strong> im Hintergrund ohne Einschränkungen laufen. Perfekt für kontinuierliches Zeitbewusstsein den ganzen Tag über.</p></div></div><div class=\"faq-info-item\"><i class=\"fas fa-calendar-alt\"></i><div><strong>Geplante Ansagen</strong><p>Starten <strong>automatisch</strong> zu den von Ihnen konfigurierten Zeiten. Diese sind aufgrund von iOS-Einschränkungen auf 64 Ansagen begrenzt. Perfekt für Weckalarme oder Erinnerungen zu bestimmten Zeiten.</p></div></div></div>",
           "q": "Was ist der Unterschied zwischen normalen und geplanten Ansagen?"
+        },
+        {
+          "a": "<p>Die Einrichtung stündlicher Ansagen ist einfach! Befolgen Sie diese Schritte:</p><ol class=\"faq-steps\"><li>Tippen Sie auf der ersten Seite auf <strong>\"Ansage-Einstellungen\"</strong></li><li>In <strong>\"Ansage-Intervall\"</strong> wischen Sie nach rechts, bis Sie die Option <strong>\"1 Stunde\"</strong> finden</li><li>Für <strong>\"Ansage-Modus\"</strong> wählen Sie <strong>\"Uhr-ausgerichtet\"</strong>, um Ansagen jede Stunde zur vollen Stunde zu erhalten (wie 2:00, 3:00, 4:00, usw.)</li><li>Drücken Sie <strong>\"Start\"</strong></li></ol><p>Das war's! Sie hören jetzt die Zeit jede Stunde zur vollen Stunde angesagt.</p>",
+          "q": "Wie richte ich stündliche Ansagen ein?"
+        },
+        {
+          "a": "<p>Wir bieten flexible Intervall-Optionen für jeden Bedarf:</p><ul><li><strong>Uhr-ausgerichtet:</strong> Jede Stunde, alle 30 Minuten, alle 15 Minuten (z.B. um :00, :15, :30, :45)</li><li><strong>Benutzerdefinierte Intervalle:</strong> Stellen Sie jedes Intervall von 1 Minute bis zu mehreren Stunden ein</li><li><strong>Auf Abruf:</strong> Tippen Sie, um die aktuelle Zeit zu hören, wann immer Sie möchten</li></ul>",
+          "q": "Welche Intervall-Optionen sind verfügbar?"
+        },
+        {
+          "a": "<p><strong>Uhr-ausgerichteter Modus:</strong> Kündigt zu bestimmten Uhrzeiten an. Zum Beispiel wird \"alle 15 Minuten\" um 9:00, 9:15, 9:30, 9:45 usw. angesagt. Großartig, um die Zeit während Meetings oder Unterricht im Blick zu behalten.</p><p><strong>Intervall-Modus:</strong> Kündigt basierend auf der verstrichenen Zeit seit dem Start an. Zum Beispiel wird \"alle 15 Minuten\" 15 Minuten nach dem Drücken von Start angesagt, dann nach 30 Minuten, 45 Minuten usw. Perfekt für zeitgesteuerte Aktivitäten wie Workouts oder Lernsitzungen.</p>",
+          "q": "Was ist der Unterschied zwischen Uhr-ausgerichtetem und Intervall-Modus?"
+        },
+        {
+          "a": "<p>Wenn Sie den <strong>Uhr-ausgerichteten</strong> Modus mit stündlichen Ansagen verwenden, passiert Folgendes:</p><ul><li>Wenn Sie die App um <strong>18:15</strong> starten, wird die App zuerst <strong>18:15</strong> als Bestätigung ansagen, dass sie gestartet ist</li><li>Direkt nach dem Start sehen Sie ein <strong>Banner unter der Uhr</strong>, das die nächste Ansagezeit anzeigt</li><li>Die nächste Ansage wird um <strong>19:00</strong> sein (die nächste ausgerichtete Stunde)</li><li>Danach setzen sich die Ansagen um <strong>19:00, 20:00, 21:00</strong> usw. fort—ausgerichtet zur Uhr</li></ul><p><strong>Wichtig:</strong> Die Ansagen werden NICHT um 19:15, 20:15 usw. sein. Sie richten sich nach den tatsächlichen Uhrzeiten, nicht relativ zu Ihrem Startpunkt.</p><p>Das ist der wichtige Unterschied zum <strong>Intervall-Modus</strong>, der jede Stunde von Ihrer Startzeit an ansagen würde (19:15, 20:15 usw.).</p>",
+          "q": "Wie funktioniert der Uhr-ausgerichtete Modus"
+        },
+        {
+          "a": "<p>Ja! Ruhezeiten ermöglichen es Ihnen, Ansagen automatisch während bestimmter Zeiten zu pausieren. Stellen Sie Ihren Schlafplan ein (z.B. 22:00 bis 7:00) und die App bleibt während dieser Stunden stumm und setzt automatisch fort, wenn Ihre Ruhezeit endet.</p>",
+          "q": "Kann ich Ruhezeiten einstellen"
+        },
+        {
+          "a": "<p>Ja, Sie können die Ansage so konfigurieren, dass sie Folgendes enthält:</p><ul><li>Zeit im 12-Stunden- oder 24-Stunden-Format</li><li>AM/PM-Anzeige</li><li>Datumsinformationen (Tag, Monat, Jahr)</li><li>Benutzerdefinierte Phrasen vor oder nach der Zeit</li></ul>",
+          "q": "Kann ich anpassen"
+        },
+        {
+          "a": "<p>Wenn 'Nicht stören' auf Ihrem Gerät aktiviert ist, werden die Ansagen trotzdem abgespielt, wenn die App läuft. Wenn Sie jedoch möchten, dass die Ansagen während 'Nicht stören' stumm sind, können Sie die integrierte Ruhezeiten-Funktion der App verwenden, die Ihnen eine feinere Kontrolle gibt.</p>",
+          "q": "Funktionieren Ansagen mit dem 'Nicht stören'-Modus?"
+        },
+        {
+          "a": "<p>Die App merkt sich Ihre letzten Einstellungen. Wenn Sie die App öffnen, tippen Sie einfach auf die Start-Taste, um Ansagen mit Ihren zuvor konfigurierten Intervall- und Stimmeinstellungen zu beginnen. Es braucht nur einen Tipp zum Starten!</p>",
+          "q": "Kann ich Ansagen automatisch starten"
+        },
+        {
+          "a": "<p>Aufgrund von Apples iOS-Systembeschränkungen sind <strong>geplante Ansagen</strong> (die automatisch von selbst starten) auf <strong>64 Ansagen</strong> begrenzt. Danach stoppt der geplante Alarm automatisch.</p><div class=\"faq-info-box\"><div class=\"faq-info-item\"><i class=\"fas fa-calendar-alt\"></i><div><strong>Geplante Ansagen</strong><p>Begrenzt auf 64 Ansagen aufgrund von iOS-Einschränkungen.</p></div></div><div class=\"faq-info-item\"><i class=\"fas fa-play-circle\"></i><div><strong>Normale Ansagen (Start-Taste)</strong><p>Keine Begrenzung! Können unbegrenzt im Hintergrund laufen.</p></div></div></div><p><strong>Dauer-Beispiele für geplante Ansagen:</strong></p><ul><li>Jede 1 Minute → ~1 Stunde</li><li>Alle 5 Minuten → ~5 Stunden 20 Minuten</li><li>Alle 15 Minuten → ~16 Stunden</li><li>Alle 30 Minuten → ~32 Stunden</li><li>Jede Stunde → ~2,5 Tage</li></ul><p>Diese Begrenzung ist auf Apples iOS-Systembeschränkungen bei der Planung lokaler Benachrichtigungen zurückzuführen, nicht auf eine Begrenzung der App selbst.</p><p><strong>Profi-Tipp:</strong> Wenn Sie unbegrenzte Ansagen benötigen, verwenden Sie die Start-Taste von der Hauptseite anstelle von geplanten Ansagen—diese können unbegrenzt im Hintergrund laufen!</p>",
+          "q": "Wie lange können geplante Ansagen automatisch laufen?"
+        },
+        {
+          "a": "<p>Wenn Sie die App öffnen, während ein <strong>geplanter Alarm</strong> im Hintergrund läuft, listet Voice Clock alle aktuell ansagenden Zeitpläne auf. Die App erkennt, dass Sie wach sind und die Ansagen manuell steuern können, daher wechselt sie vom automatischen Hintergrundverhalten zur manuellen Steuerung.</p><p>Der \"Weiter laufen\"-Dialog gibt Ihnen Optionen:</p><ul><li><strong>Den Alarm aktiv fortsetzen:</strong> Die Ansagen mit aktiver Kontrolle weiterlaufen lassen</li><li><strong>Wählen, welcher Alarm fortgesetzt wird:</strong> Falls Sie mehrere Alarme eingestellt haben</li><li><strong>Den Alarm stoppen:</strong> Ansagen vollständig beenden</li></ul><p><strong>Bonus:</strong> Durch Öffnen der App und Fortsetzen können Sie die Ansagen jetzt <strong>unbegrenzt</strong> laufen lassen—Apples 64-Ansagen-Hintergrundlimit umgehen!</p><p><strong>Möchten Sie, dass der Alarm automatisch ohne Unterbrechung fortgesetzt wird?</strong> Lassen Sie ihn einfach laufen und öffnen Sie die App nicht. Er wird im Hintergrund bis zur 64-Ansagen-Grenze fortgesetzt.</p>",
+          "q": "Warum erscheint ein \"Weiter laufen\"-Dialog, wenn ich die App öffne?"
         }
       ],
       "title": "Geplante Ansagen",
@@ -54,6 +138,26 @@
         {
           "a": "<p>Ihr Abonnement bleibt gültig, auch wenn die App gelöscht und neu installiert wurde. Um Ihren Kauf wiederherzustellen:</p><ol class=\"faq-steps\"><li>Öffnen Sie die App</li><li>Tippen Sie oben neben der Überschrift <strong>\"Voice Clock\"</strong> auf den Button <strong>\"Go Pro\"</strong></li><li>Tippen Sie am unteren Bildschirmrand auf <strong>\"Kauf wiederherstellen\"</strong></li><li>Ihre Premium-Mitgliedschaft wird automatisch wiederhergestellt</li></ol><p>Wenn Sie Probleme haben, diese Buttons zu finden oder Ihren Kauf wiederherzustellen, <a href=\"mailto:harmonyastroapp@gmail.com\">kontaktieren Sie uns</a> bitte und wir helfen Ihnen gerne mit einer Schritt-für-Schritt-Anleitung.</p>",
           "q": "Ich habe die App neu installiert. Wie stelle ich meinen Pro-Kauf wieder her?"
+        },
+        {
+          "a": "<p>Nein. Voice Clock Time Speaker wurde mit Fokus auf Datenschutz entwickelt. Wir sammeln, speichern oder teilen keine persönlichen Daten. Die App funktioniert vollständig auf Ihrem Gerät, ohne dass ein Konto oder eine Internetverbindung für die Grundfunktionen erforderlich ist.</p>",
+          "q": "Sammelt die App persönliche Daten?"
+        },
+        {
+          "a": "<p>Voice Clock Time Speaker ist für iPhone und iPad mit iOS 15.0 oder neuer verfügbar. Die App ist für alle Bildschirmgrößen optimiert und funktioniert hervorragend auf beiden Geräten.</p>",
+          "q": "Welche Geräte werden unterstützt?"
+        },
+        {
+          "a": "<p>Wir freuen uns über Rückmeldungen unserer Nutzer! Wenn Sie einen Fehler gefunden haben oder einen Feature-Vorschlag haben, kontaktieren Sie uns bitte unter <a href=\"mailto:harmonyastroapp@gmail.com\">harmonyastroapp@gmail.com</a> oder kontaktieren Sie uns über die App.</p><p><strong>🎁 Chance auf Geschenke!</strong> Nutzer, die Fehler melden oder Features vorschlagen, haben die Chance, Geschenke zu gewinnen. Falls Sie interessiert sind, erwähnen Sie bitte, dass Sie daran interessiert sind—fragen Sie gerne danach!</p><p>Bitte vergessen Sie nicht, Ihre E-Mail-Adresse anzugeben, damit wir Ihnen antworten können.</p>",
+          "q": "Wie melde ich einen Fehler oder schlage ein Feature vor?"
+        },
+        {
+          "a": "<p>Wir sind hier, um zu helfen! Sie können uns erreichen unter:</p><ul><li>E-Mail: <a href=\"mailto:harmonyastroapp@gmail.com\">harmonyastroapp@gmail.com</a></li></ul><p>Bitte vergessen Sie nicht, Ihre E-Mail-Adresse anzugeben, damit wir Ihnen antworten können. Wir antworten normalerweise innerhalb weniger Stunden.</p>",
+          "q": "Wie kontaktiere ich den Support?"
+        },
+        {
+          "a": "<p>Voice Clock Time Speaker ist perfekt für:</p><ul><li><strong>Menschen mit ADHS:</strong> Konzentriert bleiben, ohne ständig die Zeit zu überprüfen</li><li><strong>Barrierefreiheit-Nutzer:</strong> Freihändige, blickfreie Zeitwahrnehmung</li><li><strong>Remote-Arbeiter:</strong> Zeit während Arbeitssitzungen im Blick behalten</li><li><strong>Studenten:</strong> Lern- und Pausenintervalle verwalten</li><li><strong>Pflegekräfte:</strong> Medikamenten- und Pflegepläne verfolgen</li><li><strong>Jeder:</strong> Perfekt zum Kochen, für Workouts, beim Fahren oder jede Aktivität, bei der das Überprüfen des Handys unpraktisch ist</li></ul>",
+          "q": "Für wen ist diese App am besten geeignet?"
         }
       ],
       "title": "Allgemeine Fragen",

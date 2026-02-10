@@ -94,7 +94,7 @@ def main():
 
         for row in rows:
             key = row.get("key", "").strip()
-            value = row.get(lang, "").strip()
+            value = (row.get(lang) or "").strip()
 
             if not key:
                 continue

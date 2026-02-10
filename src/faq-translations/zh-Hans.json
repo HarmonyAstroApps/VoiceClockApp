@@ -1,4 +1,170 @@
 {
+  "sections": [
+    {
+      "description": "Learn how Voice Clock Time Speaker works seamlessly in the background",
+      "questions": [
+        {
+          "a": "<p>Yes! Voice Clock Time Speaker is designed to run continuously in the background. Once you start the announcements and minimize the app, it will keep announcing the time at your chosen intervals even when you're using other apps or your screen is locked.</p>",
+          "q": "Can the app announce time while running in the background?"
+        },
+        {
+          "a": "<p>We've optimized the app to use minimal battery. The app uses efficient background audio capabilities and only wakes up briefly to announce the time. Most users report negligible battery impact even with continuous use throughout the day.</p>",
+          "q": "Does the app drain my battery while running in the background?"
+        },
+        {
+          "a": "<p><strong>Yes!</strong> Voice Clock is specifically designed to work alongside other audio apps. You can listen to music, podcasts, audiobooks, or any other audio while receiving time announcements.</p><p>When playing music, the announcement will briefly lower the music volume, speak the time, and then restore the music to its original level. During phone calls, announcements are paused automatically and resume when the call ends.</p>",
+          "q": "Can I use Voice Clock while playing music or using other audio apps?"
+        },
+        {
+          "a": "<p>Background audio permission is required for the app to continue speaking time announcements when you're not actively using the app. This is a standard iOS permission that allows audio apps to function in the background. Without it, the announcements would stop as soon as you leave the app.</p>",
+          "q": "Why do I need to grant background audio permission?"
+        },
+        {
+          "a": "<p>Simply open the app and tap the Stop button, or use the Control Center to stop the audio. You can also set up Quiet Hours in the app settings to automatically pause announcements during specific times like sleep hours.</p>",
+          "q": "How do I stop the background announcements?"
+        },
+        {
+          "a": "<p><strong>No!</strong> When you start announcements using the Start button from the main page, they can run <strong>infinitely</strong> in the background with no restrictions. The app uses background audio capability to keep announcing the time as long as you need.</p><p>You can minimize the app, lock your screen, or use other apps—the announcements will continue without any limit.</p><p><strong>Note:</strong> This applies to normal announcements started manually. Scheduled announcements (that start automatically) have different limitations—see the <a href=\"#scheduled-announcements\">Scheduled Announcements</a> section for details.</p>",
+          "q": "Is there a limit to how long announcements can run in the background?"
+        }
+      ],
+      "title": "Background Capability",
+      "id": "background-capability",
+      "icon": "fa-mobile-screen-button"
+    },
+    {
+      "questions": [
+        {
+          "a": "<p>Voice Clock Time Speaker offers a wide variety of voices including:</p><ul><li><strong>System Voices:</strong> High-quality text-to-speech voices in 15+ languages including English (multiple accents), Japanese, Spanish, French, German, and more</li><li><strong>Male & Female Options:</strong> Choose between different genders for most languages</li><li><strong>Enhanced Voices:</strong> Premium Siri-quality voices where available on your device</li></ul>",
+          "q": "What voice options are available?"
+        },
+        {
+          "a": "<p>Yes! You can customize the speaking rate to match your preference. Slow it down for clearer pronunciation or speed it up for quick time checks. The voice settings are easily accessible from the main settings panel.</p>",
+          "q": "Can I adjust the voice speed and pitch?"
+        },
+        {
+          "a": "<p>Absolutely! We support 15+ languages with native pronunciation:</p><ul><li>English (US, UK, Australian, Indian accents)</li><li>Japanese, Chinese (Mandarin, Cantonese)</li><li>Spanish, French, German, Italian, Portuguese</li><li>Korean, Hindi, Arabic, Russian</li><li>And many more!</li></ul>",
+          "q": "Does the app support multiple languages?"
+        },
+        {
+          "a": "<p>Yes! You can enable a pre-announcement chime or tone to get your attention before the time is spoken. This is especially helpful if you're focused on a task and need an audio cue that the time announcement is coming.</p>",
+          "q": "Can I add a sound before the time announcement?"
+        },
+        {
+          "a": "<p>The announcements follow your device's audio routing. If you have headphones or Bluetooth speakers connected, the time will be announced through them. If nothing is connected, it plays through your device's speaker. This makes it perfect for private listening or sharing with others in a room.</p>",
+          "q": "Will the announcements play through my headphones or speakers?"
+        },
+        {
+          "a": "<p>The announcement volume follows your device's media volume. Use the physical volume buttons or Control Center to adjust. Some users prefer using the app while cooking or exercising, so setting a higher volume ensures you never miss a time update.</p>",
+          "q": "How do I change the volume of announcements?"
+        },
+        {
+          "q": "My phone has Siri voice, but I don't see it in the app. Why?",
+          "a": "<p>Siri voices are proprietary to Apple and are exclusively controlled by them. Apple intentionally keeps Siri's voice separate from third-party apps to maintain a clear distinction between Siri (Apple's assistant) and other app voices.</p><p>Because of this restriction, Apple does not allow apps like Voice Clock to access Siri voices. The app displays all voices that Apple makes available to developers for your device—which still includes many high-quality options across multiple languages and accents.</p>"
+        },
+        {
+          "q": "Will you add more AI voices in the future?",
+          "a": "<p>While adding cloud-based AI voices is technically possible, there are significant challenges:</p><ul><li><strong>Internet dependency:</strong> AI voices require a constant internet connection, which isn't always available</li><li><strong>Reliability:</strong> Network issues could cause announcements to fail or be delayed</li><li><strong>Cost:</strong> Cloud AI services would significantly increase the app's operating costs, which would need to be passed on to users</li></ul><p>We're actively exploring solutions that could address these challenges while maintaining the app's reliability and affordability. Stay tuned for future updates!</p>"
+        },
+        {
+          "q": "Can I adjust the speed of seconds announcements?",
+          "a": "<p>Currently, the speed of seconds announcements cannot be adjusted. Here's why:</p><p>When announcing seconds like \"55\" or \"59,\" the spoken words take longer to say than smaller numbers like \"1\" or \"5.\" The announcement must complete within one second before the next second arrives. Different languages also have varying word lengths for numbers—some languages require more syllables to express the same number.</p><p>To ensure accurate, real-time announcements across all supported languages, the seconds announcement uses a faster, optimized pace. This guarantees that even longer numbers are fully spoken before the next second begins.</p>"
+        }
+      ],
+      "title": "Sounds & Voice Options",
+      "description": "Explore the variety of voices and sound options available",
+      "id": "sounds",
+      "icon": "fa-volume-high"
+    },
+    {
+      "description": "Set up the perfect announcement schedule for your routine",
+      "questions": [
+        {
+          "a": "<p>Voice Clock offers two ways to announce the time:</p><div class=\"faq-info-box\"><div class=\"faq-info-item\"><i class=\"fas fa-play-circle\"></i><div><strong>Normal Announcements</strong><p>Started by pressing the <strong>Start button</strong> from the main page. These can run <strong>infinitely</strong> in the background with no restrictions. Perfect for continuous time awareness throughout the day.</p></div></div><div class=\"faq-info-item\"><i class=\"fas fa-calendar-alt\"></i><div><strong>Scheduled Announcements</strong><p>Start <strong>automatically</strong> at times you configure. These are limited to 64 announcements due to iOS restrictions. Perfect for wake-up alarms or reminders at specific times.</p></div></div></div>",
+          "q": "What's the difference between normal and scheduled announcements?"
+        },
+        {
+          "a": "<p>Setting up hourly announcements is easy! Follow these steps:</p><ol class=\"faq-steps\"><li>On the first page, tap <strong>\"Announcement Settings\"</strong></li><li>In <strong>\"Announcement Interval\"</strong>, swipe to the right until you find the <strong>\"1 hour\"</strong> option</li><li>For <strong>\"Announcement Mode\"</strong>, choose <strong>\"Clock Aligned\"</strong> to get announcements every hour at the top of the hour (like 2:00, 3:00, 4:00, etc.)</li><li>Press <strong>\"Start\"</strong></li></ol><p>That's it! You'll now hear the time announced every hour on the hour.</p>",
+          "q": "How do I set up hourly announcements?"
+        },
+        {
+          "a": "<p>We offer flexible interval options to fit any need:</p><ul><li><strong>Clock-Aligned:</strong> Every hour, every 30 minutes, every 15 minutes (e.g., at :00, :15, :30, :45)</li><li><strong>Custom Intervals:</strong> Set any interval from 1 minute to several hours</li><li><strong>On-Demand:</strong> Tap to hear the current time whenever you want</li></ul>",
+          "q": "What interval options are available?"
+        },
+        {
+          "a": "<p><strong>Clock-Aligned Mode:</strong> Announces at specific clock times. For example, \"every 15 minutes\" will announce at 9:00, 9:15, 9:30, 9:45, etc. Great for keeping track of time during meetings or classes.</p><p><strong>Interval Mode:</strong> Announces based on time elapsed since you started. For example, \"every 15 minutes\" will announce 15 minutes from when you pressed start, then 30 minutes, 45 minutes, etc. Perfect for timing activities like workouts or study sessions.</p>",
+          "q": "What's the difference between Clock-Aligned and Interval mode?"
+        },
+        {
+          "a": "<p>When you use <strong>Clock Aligned</strong> mode with hourly announcements, here's what happens:</p><ul><li>If you start the app at <strong>6:15 PM</strong>, the app will first announce <strong>6:15 PM</strong> as confirmation that it has started</li><li>Immediately after starting, you'll see a <strong>banner below the clock</strong> showing the next announcement time</li><li>The next announcement will be at <strong>7:00 PM</strong> (the next aligned hour)</li><li>After that, announcements continue at <strong>7:00, 8:00, 9:00</strong>, and so on—aligned to the clock</li></ul><p><strong>Important:</strong> The announcements will NOT be at 7:15, 8:15, etc. They align to the actual clock hours, not relative to when you started.</p><p>This is the key difference from <strong>Interval Mode</strong>, which would announce every hour from your start time (7:15, 8:15, etc.).</p>",
+          "q": "How does Clock Aligned mode work if I start at a non-aligned time?"
+        },
+        {
+          "a": "<p>Yes! Quiet Hours let you automatically pause announcements during specific times. Set your sleep schedule (e.g., 10 PM to 7 AM) and the app will stay silent during those hours, then automatically resume when your quiet period ends.</p>",
+          "q": "Can I set Quiet Hours to pause announcements at night?"
+        },
+        {
+          "a": "<p>Yes, you can configure the announcement to include:</p><ul><li>Time in 12-hour or 24-hour format</li><li>AM/PM indicator</li><li>Date information (day, month, year)</li><li>Custom phrases before or after the time</li></ul>",
+          "q": "Can I customize what information is announced?"
+        },
+        {
+          "a": "<p>When Do Not Disturb is enabled on your device, the announcements will still play if you have the app running. However, if you want the announcements to be silenced during DND, you can use the app's built-in Quiet Hours feature which gives you more granular control.</p>",
+          "q": "Will announcements work with Do Not Disturb mode?"
+        },
+        {
+          "a": "<p>The app remembers your last settings. When you open the app, simply tap the Start button to begin announcements with your previously configured intervals and voice settings. It takes just one tap to get started!</p>",
+          "q": "Can I start announcements automatically when I open the app?"
+        },
+        {
+          "a": "<p>Due to Apple's iOS system limitations, <strong>scheduled announcements</strong> (ones that start automatically by themselves) are limited to <strong>64 announcements</strong>. After that, the scheduled alarm stops automatically.</p><div class=\"faq-info-box\"><div class=\"faq-info-item\"><i class=\"fas fa-calendar-alt\"></i><div><strong>Scheduled Announcements</strong><p>Limited to 64 announcements due to iOS restrictions.</p></div></div><div class=\"faq-info-item\"><i class=\"fas fa-play-circle\"></i><div><strong>Normal Announcements (Start Button)</strong><p>No limit! Can run infinitely in the background.</p></div></div></div><p><strong>Duration examples for scheduled announcements:</strong></p><ul><li>Every 1 minute → ~1 hour</li><li>Every 5 minutes → ~5 hours 20 minutes</li><li>Every 15 minutes → ~16 hours</li><li>Every 30 minutes → ~32 hours</li><li>Every hour → ~2.5 days</li></ul><p>This limitation is due to Apple's iOS system constraints on scheduling local notifications, not a limitation of the app itself.</p><p><strong>Pro tip:</strong> If you need unlimited announcements, use the Start button from the main page instead of scheduled announcements—these can run infinitely in the background!</p>",
+          "q": "How long can scheduled announcements run automatically?"
+        },
+        {
+          "a": "<p>When you open the app while a <strong>scheduled alarm</strong> is running in the background, Voice Clock lists all currently announcing schedules. The app recognizes that you're awake and able to manually control the announcements, so it switches from automatic background behavior to manual control.</p><p>The \"Continue Running\" dialog gives you options to:</p><ul><li><strong>Continue the alarm actively:</strong> Keep the announcements going with active control</li><li><strong>Choose which alarm to continue:</strong> If you have multiple alarms set</li><li><strong>Stop the alarm:</strong> End announcements entirely</li></ul><p><strong>Bonus:</strong> By opening the app and choosing to continue, you can now run the announcements <strong>infinitely</strong>—bypassing Apple's 64-announcement background limit!</p><p><strong>Want the alarm to continue automatically without interruption?</strong> Simply leave it running and don't open the app. It will continue in the background up to the 64-announcement limit.</p>",
+          "q": "Why does a \"Continue Running\" dialog appear when I open the app?"
+        }
+      ],
+      "title": "Scheduled Announcements",
+      "id": "scheduled-announcements",
+      "icon": "fa-calendar-check"
+    },
+    {
+      "description": "Common questions about the app",
+      "questions": [
+        {
+          "a": "<p>The app offers a free version with essential features. For advanced customization options, additional voices, and an ad-free experience, you can upgrade to the Pro version.</p>",
+          "q": "Is Voice Clock Time Speaker free to use?"
+        },
+        {
+          "a": "<p>Your subscription remains valid even if the app was deleted and reinstalled. To restore your purchase:</p><ol class=\"faq-steps\"><li>Open the app</li><li>At the top, next to the heading <strong>\"Voice Clock\"</strong>, tap the <strong>\"Go Pro\"</strong> button</li><li>At the bottom of the screen, tap <strong>\"Restore Purchase\"</strong></li><li>Your premium membership will be restored automatically</li></ol><p>If you have any trouble finding these buttons or restoring your purchase, please <a href=\"mailto:harmonyastroapp@gmail.com\">contact us</a> and we'll be happy to help with step-by-step guidance.</p>",
+          "q": "I reinstalled the app. How do I restore my Pro purchase?"
+        },
+        {
+          "a": "<p>No. Voice Clock Time Speaker is designed with privacy in mind. We don't collect, store, or share any personal data. The app works entirely on your device without requiring an account or internet connection for core functionality.</p>",
+          "q": "Does the app collect any personal data?"
+        },
+        {
+          "a": "<p>Voice Clock Time Speaker is available for iPhone and iPad running iOS 15.0 or later. The app is optimized for all screen sizes and works great on both devices.</p>",
+          "q": "What devices are supported?"
+        },
+        {
+          "a": "<p>We love hearing from our users! If you've found a bug or have a feature suggestion, please contact us at <a href=\"mailto:harmonyastroapp@gmail.com\">harmonyastroapp@gmail.com</a>, or contact us through the app.</p><p><strong>🎁 Chance to win gifts!</strong> Users who report bugs or suggest features have a chance to win some gifts. If you're interested, please mention that you're looking for one—you're welcome to ask for it!</p><p>Please don't forget to include your email address so we can respond to you.</p>",
+          "q": "How do I report a bug or suggest a feature?"
+        },
+        {
+          "a": "<p>We're here to help! You can reach us at:</p><ul><li>Email: <a href=\"mailto:harmonyastroapp@gmail.com\">harmonyastroapp@gmail.com</a></li></ul><p>Please don't forget to include your email address so we can respond to you. We typically respond within a few hours.</p>",
+          "q": "How do I contact support?"
+        },
+        {
+          "a": "<p>Voice Clock Time Speaker is perfect for:</p><ul><li><strong>People with ADHD:</strong> Stay focused without constantly checking the time</li><li><strong>Accessibility Users:</strong> Hands-free, eyes-free time awareness</li><li><strong>Remote Workers:</strong> Keep track of time during work sessions</li><li><strong>Students:</strong> Manage study and break intervals</li><li><strong>Caregivers:</strong> Track medication and care schedules</li><li><strong>Anyone:</strong> Perfect for cooking, workouts, driving, or any activity where checking your phone isn't convenient</li></ul>",
+          "q": "Who is this app best suited for?"
+        }
+      ],
+      "title": "General Questions",
+      "id": "general",
+      "icon": "fa-circle-question"
+    }
+  ],
   "contactSection": {
     "buttonText": "联系我们",
     "description": "我们随时乐意为您提供帮助！联系我们，我们会尽快回复。",

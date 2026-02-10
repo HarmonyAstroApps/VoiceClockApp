@@ -33,7 +33,6 @@
       "icon": "fa-mobile-screen-button"
     },
     {
-      "description": "Explore the variety of voices and sound options available",
       "questions": [
         {
           "a": "<p>Voice Clock Time Speaker offers a wide variety of voices including:</p><ul><li><strong>System Voices:</strong> High-quality text-to-speech voices in 15+ languages including English (multiple accents), Japanese, Spanish, French, German, and more</li><li><strong>Male & Female Options:</strong> Choose between different genders for most languages</li><li><strong>Enhanced Voices:</strong> Premium Siri-quality voices where available on your device</li></ul>",
@@ -60,19 +59,20 @@
           "q": "How do I change the volume of announcements?"
         },
         {
-          "a": "<p>Siri voices are proprietary to Apple and are exclusively controlled by them. Apple intentionally keeps Siri's voice separate from third-party apps to maintain a clear distinction between Siri (Apple's assistant) and other app voices.</p><p>Because of this restriction, Apple does not allow apps like Voice Clock to access Siri voices. The app displays all voices that Apple makes available to developers for your device—which still includes many high-quality options across multiple languages and accents.</p>",
-          "q": "My phone has Siri voice, but I don't see it in the app. Why?"
+          "q": "My phone has Siri voice, but I don't see it in the app. Why?",
+          "a": "<p>Siri voices are proprietary to Apple and are exclusively controlled by them. Apple intentionally keeps Siri's voice separate from third-party apps to maintain a clear distinction between Siri (Apple's assistant) and other app voices.</p><p>Because of this restriction, Apple does not allow apps like Voice Clock to access Siri voices. The app displays all voices that Apple makes available to developers for your device—which still includes many high-quality options across multiple languages and accents.</p>"
         },
         {
-          "a": "<p>While adding cloud-based AI voices is technically possible, there are significant challenges:</p><ul><li><strong>Internet dependency:</strong> AI voices require a constant internet connection, which isn't always available</li><li><strong>Reliability:</strong> Network issues could cause announcements to fail or be delayed</li><li><strong>Cost:</strong> Cloud AI services would significantly increase the app's operating costs, which would need to be passed on to users</li></ul><p>We're actively exploring solutions that could address these challenges while maintaining the app's reliability and affordability. Stay tuned for future updates!</p>",
-          "q": "Will you add more AI voices in the future?"
+          "q": "Will you add more AI voices in the future?",
+          "a": "<p>While adding cloud-based AI voices is technically possible, there are significant challenges:</p><ul><li><strong>Internet dependency:</strong> AI voices require a constant internet connection, which isn't always available</li><li><strong>Reliability:</strong> Network issues could cause announcements to fail or be delayed</li><li><strong>Cost:</strong> Cloud AI services would significantly increase the app's operating costs, which would need to be passed on to users</li></ul><p>We're actively exploring solutions that could address these challenges while maintaining the app's reliability and affordability. Stay tuned for future updates!</p>"
         },
         {
-          "a": "<p>Currently, the speed of seconds announcements cannot be adjusted. Here's why:</p><p>When announcing seconds like \"55\" or \"59,\" the spoken words take longer to say than smaller numbers like \"1\" or \"5.\" The announcement must complete within one second before the next second arrives. Different languages also have varying word lengths for numbers—some languages require more syllables to express the same number.</p><p>To ensure accurate, real-time announcements across all supported languages, the seconds announcement uses a faster, optimized pace. This guarantees that even longer numbers are fully spoken before the next second begins.</p>",
-          "q": "Can I adjust the speed of seconds announcements?"
+          "q": "Can I adjust the speed of seconds announcements?",
+          "a": "<p>Currently, the speed of seconds announcements cannot be adjusted. Here's why:</p><p>When announcing seconds like \"55\" or \"59,\" the spoken words take longer to say than smaller numbers like \"1\" or \"5.\" The announcement must complete within one second before the next second arrives. Different languages also have varying word lengths for numbers—some languages require more syllables to express the same number.</p><p>To ensure accurate, real-time announcements across all supported languages, the seconds announcement uses a faster, optimized pace. This guarantees that even longer numbers are fully spoken before the next second begins.</p>"
         }
       ],
       "title": "Sounds & Voice Options",
+      "description": "Explore the variety of voices and sound options available",
       "id": "sounds",
       "icon": "fa-volume-high"
     },

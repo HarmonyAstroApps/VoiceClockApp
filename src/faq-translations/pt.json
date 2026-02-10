@@ -1,4 +1,170 @@
 {
+  "sections": [
+    {
+      "description": "Saiba como o Voice Clock Time Speaker funciona perfeitamente em segundo plano",
+      "questions": [
+        {
+          "a": "<p>Sim!O Voice Clock Time Speaker foi projetado para funcionar continuamente em segundo plano.Depois que você iniciar os anúncios e minimizar o aplicativo, ele continuará anunciando o horário nos intervalos escolhidos, mesmo quando você estiver usando outros aplicativos ou quando sua tela estiver bloqueada.</p>",
+          "q": "O aplicativo pode anunciar a hora enquanto é executado em segundo plano?"
+        },
+        {
+          "a": "<p>Otimizamos o aplicativo para usar o mínimo de bateria.O aplicativo usa recursos eficientes de áudio de fundo e só acorda brevemente para anunciar a hora.A maioria dos usuários relata um impacto insignificante na bateria, mesmo com uso contínuo ao longo do dia.</p>",
+          "q": "O aplicativo descarrega minha bateria enquanto é executado em segundo plano?"
+        },
+        {
+          "a": "<p><strong>Sim!</strong> O Voice Clock foi projetado especificamente para funcionar junto com outros aplicativos de áudio.Você pode ouvir música, podcasts, audiolivros ou qualquer outro áudio enquanto recebe anúncios de horário.</p><p>Ao reproduzir música, o anúncio diminuirá brevemente o volume da música, falará o horário e, em seguida, restaurará a música ao seu nível original.Durante as chamadas telefônicas, os anúncios são pausados ​​automaticamente e retomados quando a chamada termina.</p>",
+          "q": "Posso usar o Voice Clock enquanto reproduzo música ou uso outros aplicativos de áudio?"
+        },
+        {
+          "a": "<p>É necessária permissão de áudio de fundo para que o aplicativo continue a anunciar o tempo de conversação quando você não estiver usando o aplicativo ativamente.Esta é uma permissão padrão do iOS que permite que aplicativos de áudio funcionem em segundo plano.Sem ele, os anúncios seriam interrompidos assim que você saísse do aplicativo.</p>",
+          "q": "Por que preciso conceder permissão de áudio em segundo plano?"
+        },
+        {
+          "a": "<p>Basta abrir o aplicativo e tocar no botão Parar ou usar o Centro de Controle para interromper o áudio.Você também pode configurar o horário de silêncio nas configurações do aplicativo para pausar automaticamente os anúncios durante horários específicos, como horas de sono.</p>",
+          "q": "Como interrompo os anúncios em segundo plano?"
+        },
+        {
+          "a": "<p><strong>Não!</strong> Quando você inicia anúncios usando o botão Iniciar na página principal, eles podem ser executados <strong>infinitamente</strong> em segundo plano, sem restrições.O aplicativo usa capacidade de áudio de fundo para continuar anunciando a hora pelo tempo que você precisar.</p><p>Você pode minimizar o aplicativo, bloquear sua tela ou usar outros aplicativos - os anúncios continuarão sem qualquer limite.</p><p><strong>Nota:</strong> Isso se aplica a anúncios normais iniciados manualmente.Os anúncios programados (que iniciam automaticamente) têm limitações diferentes. Consulte a seção <a href=\"#scheduled-announcements\">Anúncios agendados</a> para obter detalhes.</p>",
+          "q": "Existe um limite para o tempo que os anúncios podem ser executados em segundo plano?"
+        }
+      ],
+      "title": "Capacidade de segundo plano",
+      "id": "background-capability",
+      "icon": "fa-mobile-screen-button"
+    },
+    {
+      "questions": [
+        {
+          "a": "<p>O Voice Clock Time Speaker oferece uma ampla variedade de vozes, incluindo:</p><ul><li><strong>Vozes do sistema:</strong> Vozes de conversão de texto em fala de alta qualidade em mais de 15 idiomas, incluindo inglês (vários sotaques), japonês, espanhol, francês, alemão emais</li><li><strong>Opções masculinas e femininas:</strong> Escolha entre gêneros diferentes para a maioria dos idiomas</li><li><strong>Vozes aprimoradas:</strong> Vozes premium com qualidade Siri, quando disponíveis em seudispositivo</li></ul>",
+          "q": "Quais opções de voz estão disponíveis?"
+        },
+        {
+          "a": "<p>Sim!Você pode personalizar a taxa de fala de acordo com sua preferência.Diminua a velocidade para uma pronúncia mais clara ou acelere para verificações rápidas.As configurações de voz são facilmente acessíveis no painel de configurações principal.</p>",
+          "q": "Posso ajustar a velocidade e o tom da voz?"
+        },
+        {
+          "a": "<p>Com certeza!Oferecemos suporte a mais de 15 idiomas com pronúncia nativa:</p><ul><li>Inglês (sotaques dos EUA, Reino Unido, Austrália e Índia)</li><li>Japonês, chinês (mandarim, cantonês)</li><li>Espanhol, francês, alemão, italiano,Português</li><li>Coreano, Hindi, Árabe, Russo</li><li>E muito mais!</li></ul>",
+          "q": "O aplicativo oferece suporte a vários idiomas?"
+        },
+        {
+          "a": "<p>Sim!Você pode ativar um sinal sonoro ou tom de pré-anúncio para chamar sua atenção antes que a hora seja anunciada.Isso é especialmente útil se você estiver concentrado em uma tarefa e precisar de um aviso sonoro de que o anúncio da hora está chegando.</p>",
+          "q": "Posso adicionar um som antes do anúncio da hora?"
+        },
+        {
+          "a": "<p>Os anúncios seguem o roteamento de áudio do seu dispositivo.Se você tiver fones de ouvido ou alto-falantes Bluetooth conectados, a hora será anunciada por meio deles.Se nada estiver conectado, ele será reproduzido pelo alto-falante do seu dispositivo.Isso o torna perfeito para ouvir com privacidade ou compartilhar com outras pessoas em uma sala.</p>",
+          "q": "Os anúncios serão reproduzidos em meus fones de ouvido ou alto-falantes?"
+        },
+        {
+          "a": "<p>O volume do anúncio segue o volume de mídia do seu dispositivo.Use os botões de volume físico ou o Centro de Controle para ajustar.Alguns usuários preferem usar o aplicativo enquanto cozinham ou fazem exercícios, portanto, definir um volume mais alto garante que você nunca perca uma atualização de horário.</p>",
+          "q": "Como altero o volume dos anúncios?"
+        },
+        {
+          "q": "Meu telefone tem voz Siri, mas não a vejo no aplicativo.Por que?",
+          "a": "<p>As vozes da Siri são propriedade da Apple e controladas exclusivamente por ela.A Apple mantém intencionalmente a voz da Siri separada de aplicativos de terceiros para manter uma distinção clara entre a Siri (assistente da Apple) e outras vozes de aplicativos.</p><p>Devido a essa restrição, a Apple não permite que aplicativos como o Voice Clock acessem as vozes da Siri.O aplicativo exibe todas as vozes que a Apple disponibiliza aos desenvolvedores para o seu dispositivo, o que ainda inclui muitas opções de alta qualidade em vários idiomas e sotaques.</p>"
+        },
+        {
+          "q": "Você adicionará mais vozes de IA no futuro?",
+          "a": "<p>Embora adicionar vozes de IA baseadas na nuvem seja tecnicamente possível, existem desafios significativos:</p><ul><li><strong>Dependência da Internet:</strong> As vozes de IA exigem uma conexão constante com a Internet, o que nem sempre é possíveldisponível</li><li><strong>Confiabilidade:</strong> Problemas de rede podem fazer com que os anúncios falhem ou sejam atrasados</li><li><strong>Custo:</strong> Os serviços de IA em nuvem aumentariam significativamente os custos operacionais do aplicativo, que precisariam ser repassados parausers</li></ul><p>Estamos explorando ativamente soluções que possam resolver esses desafios, mantendo a confiabilidade e o preço acessível do aplicativo.Fique ligado nas atualizações futuras!</p>"
+        },
+        {
+          "q": "Posso ajustar a velocidade dos anúncios em segundos?",
+          "a": "<p>Atualmente, a velocidade dos anúncios em segundos não pode ser ajustada.Eis o porquê:</p><p>Ao anunciar segundos como \"55\" ou \"59\", as palavras faladas demoram mais para serem ditas do que números menores como \"1\" ou \"5\".O anúncio deve ser concluído dentro de um segundo antes que o próximo segundo chegue.Idiomas diferentes também têm comprimentos de palavras variados para números. Alguns idiomas exigem mais sílabas para expressar o mesmo número.</p><p>Para garantir anúncios precisos e em tempo real em todos os idiomas suportados, o anúncio dos segundos usa um ritmo mais rápido e otimizado.Isso garante que números ainda mais longos sejam totalmente falados antes do próximo segundo começar.</p>"
+        }
+      ],
+      "title": "Opções de sons e voz",
+      "description": "Explore a variedade de vozes e opções de som disponíveis",
+      "id": "sounds",
+      "icon": "fa-volume-high"
+    },
+    {
+      "description": "Configure o cronograma de anúncios perfeito para sua rotina",
+      "questions": [
+        {
+          "a": "<p>O Relógio de voz oferece duas maneiras de anunciar a hora:</p><div class=\"faq-info-box\"><div class=\"faq-info-item\"><i class=\"fas fa-play-circle\"></i><div><strong>Anúncios normais</strong><p>Iniciado pressionando o botão<strong>Botão Iniciar</strong> na página principal.Eles podem ser executados <strong>infinitely</strong> em segundo plano, sem restrições.Perfeito para percepção contínua do tempo ao longo do dia.</p></div></div><div class=\"faq-info-item\"><i class=\"fas fa-calendar-alt\"></i><div><strong>Anúncios programados</strong><p>Iniciar<strong>automaticamente</strong> às vezes que você configura.Estes são limitados a 64 anúncios devido a restrições do iOS.Perfeito para despertadores ou lembretes em horários específicos.</p></div></div></div>",
+          "q": "Qual é a diferença entre anúncios normais e programados?"
+        },
+        {
+          "a": "<p>Configurar anúncios de hora em hora é fácil!Siga estas etapas:</p><ol class=\"faq-steps\"><li>Na primeira página, toque em <strong>\"Configurações de anúncio\"</strong></li><li>Em <strong>\"Intervalo de anúncio\"</strong>, deslize para a direita até vocêencontre a opção <strong>\"1 hora\"</strong></li><li>Para <strong>\"Modo de anúncio\"</strong>, escolha <strong>\"Relógio alinhado\"</strong> para obter anúncios a cada hora no topo dohora (como 2:00, 3:00, 4:00, etc.)</li><li>Pressione <strong>\"Iniciar\"</strong></li></ol><p>É isso aí!Agora você ouvirá o horário anunciado de hora em hora.</p>",
+          "q": "Como configuro anúncios de hora em hora?"
+        },
+        {
+          "a": "<p>Oferecemos opções de intervalo flexíveis para atender a qualquer necessidade:</p><ul><li><strong>Alinhado pelo relógio:</strong> A cada hora, a cada 30 minutos, a cada 15 minutos (por exemplo, às :00, :15, :30,:45)</li><li><strong>Intervalos personalizados:</strong> Defina qualquer intervalo de 1 minuto a várias horas</li><li><strong>On-Demand:</strong> Toque para ouvir a hora atual sempre que vocêquero</li></ul>",
+          "q": "Quais opções de intervalo estão disponíveis?"
+        },
+        {
+          "a": "<p><strong>Modo alinhado ao relógio:</strong> Anuncia em horários específicos.Por exemplo, \"a cada 15 minutos\" será anunciado às 9h, 9h15, 9h30, 9h45, etc. Ótimo para controlar o tempo durante reuniões ou aulas.</p><p><strong>Modo de intervalo:</strong> Anuncia com base no tempo decorrido desde que você começou.Por exemplo, \"a cada 15 minutos\" anunciará 15 minutos a partir de quando você pressionou Iniciar, depois 30 minutos, 45 minutos, etc. Perfeito para cronometrar atividades como treinos ou sessões de estudo.</p>",
+          "q": "Qual é a diferença entre o modo Alinhado pelo Relógio e o modo Intervalo?"
+        },
+        {
+          "a": "<p>Quando você usa o modo <strong>Clock Aligned</strong> com anúncios de hora em hora, eis o que acontece:</p><ul><li>Se você iniciar o aplicativo às <strong>18h15</strong>, o aplicativo anunciará primeiro<strong>18h15</strong> como confirmação de que começou</li><li>Imediatamente após o início, você verá um <strong>banner abaixo do relógio</strong> mostrando o horário do próximo anúncio</li><li>O próximo anúncio seráserá às <strong>19:00 PM</strong> (a próxima hora alinhada)</li><li>Depois disso, os anúncios continuam às <strong>7:00, 8:00, 9:00</strong> e assim por diante - alinhados aoclock</li></ul><p><strong>Importante:</strong> Os anúncios NÃO serão às 7h15, 8h15, etc. Eles se alinham com as horas reais do relógio, não em relação a quando você começou.</p><p>Esta é a principal diferença de<strong>Modo de intervalo</strong>, que anunciaria a cada hora a partir do seu horário de início (7h15, 8h15, etc.).</p>",
+          "q": "Como funciona o modo Clock Aligned se eu iniciar em um horário não alinhado?"
+        },
+        {
+          "a": "<p>Sim!O Horário de silêncio permite pausar automaticamente os anúncios durante horários específicos.Defina seu horário de sono (por exemplo, das 22h às 7h) e o aplicativo permanecerá silencioso durante esse horário e será retomado automaticamente quando o período de silêncio terminar.</p>",
+          "q": "Posso definir o Horário de silêncio para pausar anúncios à noite?"
+        },
+        {
+          "a": "<p>Sim, você pode configurar o anúncio para incluir:</p><ul><li>Hora no formato de 12 ou 24 horas</li><li>Indicador AM/PM</li><li>Informações de data (dia, mês,ano)</li><li>Frases personalizadas antes ou depois do horário</li></ul>",
+          "q": "Posso personalizar quais informações são anunciadas?"
+        },
+        {
+          "a": "<p>Quando o modo Não perturbe estiver ativado no seu dispositivo, os anúncios ainda serão reproduzidos se o aplicativo estiver em execução.No entanto, se quiser que os anúncios sejam silenciados durante o DND, você pode usar o recurso Quiet Hours integrado do aplicativo, que oferece um controle mais granular.</p>",
+          "q": "Os anúncios funcionarão no modo Não perturbe?"
+        },
+        {
+          "a": "<p>O aplicativo lembra suas últimas configurações.Ao abrir o aplicativo, basta tocar no botão Iniciar para iniciar os anúncios com os intervalos e configurações de voz configurados anteriormente.Basta um toque para começar!</p>",
+          "q": "Posso iniciar anúncios automaticamente ao abrir o aplicativo?"
+        },
+        {
+          "a": "<p>Devido às limitações do sistema iOS da Apple, <strong>anúncios programados</strong> (aqueles que iniciam automaticamente por conta própria) estão limitados a <strong>64 anúncios</strong>.Depois disso, o alarme programado para automaticamente.</p><div class=\"faq-info-box\"><div class=\"faq-info-item\"><i class=\"fas fa-calendar-alt\"></i><div><strong>Anúncios programados</strong><p>Limitado a 64 anúncios devido ao iOSrestrições.</p></div></div><div class=\"faq-info-item\"><i class=\"fas fa-play-circle\"></i><div><strong>Anúncios normais (botão Iniciar)</strong><p>Sem limite!Pode ser executado infinitamente em segundo plano.</p></div></div></div><p><strong>Exemplos de duração para anúncios agendados:</strong></p><ul><li>Every1 minuto → ~1 hora</li><li>A cada 5 minutos → ~5 horas e 20 minutos</li><li>A cada 15 minutos → ~16 horas</li><li>A cada 30 minutos → ~32horas</li><li>A cada hora → ~2,5 dias</li></ul><p>Essa limitação se deve às restrições do sistema iOS da Apple no agendamento de notificações locais, não a uma limitação do aplicativo em si.</p><p><strong>Prodica:</strong> Se você precisar de anúncios ilimitados, use o botão Iniciar na página principal em vez de anúncios programados - eles podem ser executados infinitamente em segundo plano!</p>",
+          "q": "Por quanto tempo os anúncios programados podem ser executados automaticamente?"
+        },
+        {
+          "a": "<p>Quando você abre o aplicativo enquanto um <strong>alarme programado</strong> está sendo executado em segundo plano, o Relógio de voz lista todas as programações anunciadas no momento.O aplicativo reconhece que você está acordado e é capaz de controlar manualmente os anúncios, então muda do comportamento automático em segundo plano para o controle manual.</p><p>A caixa de diálogo \"Continuar executando\" oferece opções para:</p><ul><li><strong>Continuar o alarme ativamente:</strong> Manter os anúncios ativoscontrol</li><li><strong>Escolha qual alarme continuar:</strong> Se você tiver vários alarmes definidos</li><li><strong>Parar o alarme:</strong> Encerrar anúnciosinteiramente</li></ul><p><strong>Bonus:</strong> Ao abrir o aplicativo e optar por continuar, agora você pode executar os anúncios <strong>infinitamente</strong> - ignorando o plano de fundo de 64 anúncios da Applelimite!</p><p><strong>Deseja que o alarme continue automaticamente sem interrupção?</strong> Basta deixá-lo em execução e não abrir o aplicativo.Ele continuará em segundo plano até o limite de 64 anúncios.</p>",
+          "q": "Por que aparece uma caixa de diálogo \"Continuar executando\" quando abro o aplicativo?"
+        }
+      ],
+      "title": "Anúncios agendados",
+      "id": "scheduled-announcements",
+      "icon": "fa-calendar-check"
+    },
+    {
+      "description": "Perguntas comuns sobre o aplicativo",
+      "questions": [
+        {
+          "a": "<p>O aplicativo oferece uma versão gratuita com recursos essenciais.Para opções de personalização avançadas, vozes adicionais e uma experiência sem anúncios, você pode atualizar para a versão Pro.</p>",
+          "q": "O uso do Voice Clock Time Speaker é gratuito?"
+        },
+        {
+          "a": "<p>Sua assinatura permanece válida mesmo que o aplicativo tenha sido excluído e reinstalado.Para restaurar sua compra:</p><ol class=\"faq-steps\"><li>Abra o aplicativo</li><li>Na parte superior, ao lado do título <strong>\"Relógio de voz\"</strong>, toque em <strong>\"Go Pro\"</strong>button</li><li>Na parte inferior da tela, toque em <strong>\"Restaurar compra\"</strong></li><li>Sua assinatura premium será restaurada automaticamente</li></ol><p>Se você tiver algum problemaencontrar esses botões ou restaurar sua compra, <a href=\"mailto:harmonyastroapp@gmail.com\">entre em contato conosco</a> e teremos prazer em ajudar com orientação passo a passo.</p>",
+          "q": "Eu reinstalei o aplicativo.Como restauro minha compra Pro?"
+        },
+        {
+          "a": "<p>Não.O Voice Clock Time Speaker foi projetado com a privacidade em mente.Não coletamos, armazenamos ou compartilhamos quaisquer dados pessoais.O aplicativo funciona inteiramente no seu dispositivo sem exigir uma conta ou conexão com a Internet para as funcionalidades principais.</p>",
+          "q": "O aplicativo coleta algum dado pessoal?"
+        },
+        {
+          "a": "<p>O Voice Clock Time Speaker está disponível para iPhone e iPad com iOS 15.0 ou posterior.O aplicativo é otimizado para todos os tamanhos de tela e funciona muito bem em ambos os dispositivos.</p>",
+          "q": "Quais dispositivos são suportados?"
+        },
+        {
+          "a": "<p>Adoramos ouvir nossos usuários!Se você encontrou um bug ou tem uma sugestão de recurso, entre em contato conosco pelo e-mail <a href=\"mailto:harmonyastroapp@gmail.com\">harmonyastroapp@gmail.com</a> ou pelo aplicativo.</p><p><strong>🎁 Chance de ganhar presentes!</strong> Usuários que relatarem bugs ou sugerirem recursos têm a chance de ganhar alguns presentes.Se estiver interessado, mencione que está procurando um - fique à vontade para solicitá-lo!</p><p>Não se esqueça de incluir seu endereço de e-mail para que possamos responder.</p>",
+          "q": "Como faço para relatar um bug ou sugerir um recurso?"
+        },
+        {
+          "a": "<p>Estamos aqui para ajudar!Você pode entrar em contato conosco em:</p><ul><li>E-mail: <a href=\"mailto:harmonyastroapp@gmail.com\">harmonyastroapp@gmail.com</a></li></ul><p>Por favor, não se esqueça de incluir seu endereço de e-mail para que possamos responder a você.Normalmente respondemos dentro de algumas horas.</p>",
+          "q": "Como entro em contato com o suporte?"
+        },
+        {
+          "a": "<p>O alto-falante com relógio de voz é perfeito para:</p><ul><li><strong>Pessoas com TDAH:</strong> Mantenha o foco sem verificar constantemente o tempo</li><li><strong>AcessibilidadeUsuários:</strong> Consciência de tempo com viva-voz e olhos livres</li><li><strong>Trabalhadores remotos:</strong> Acompanhe o tempo durante o trabalhosessões</li><li><strong>Alunos:</strong> Gerenciar intervalos de estudo e intervalos</li><li><strong>Cuidadores:</strong> Rastrear medicamentos e cuidadoshorários</li><li><strong>Qualquer pessoa:</strong> Perfeito para cozinhar, fazer exercícios, dirigir ou qualquer atividade em que não seja conveniente verificar seu telefone</li></ul>",
+          "q": "Para quem este aplicativo é mais adequado?"
+        }
+      ],
+      "title": "Perguntas Gerais",
+      "id": "general",
+      "icon": "fa-circle-question"
+    }
+  ],
   "contactSection": {
     "buttonText": "Fale Conosco",
     "description": "Estamos sempre felizes em ajudar! Entre em contato e responderemos o mais rápido possível.",
