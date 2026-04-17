@@ -3,548 +3,145 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>FAQ - Voice Clock Time Speaker</title>
-    <meta name="description" content="Frequently Asked Questions about Voice Clock Time Speaker - Learn about background operation, sounds, scheduled announcements, and more.">
-    <link rel="stylesheet" href="src/styles/globals.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <title>Voice Clock FAQ - Time Announcer Questions Answered</title>
+    <meta name="description" content="Frequently asked questions about Voice Clock Time Speaker. Learn about time announcements, ADHD support, accessibility, languages, and more.">
+    <meta name="robots" content="index, follow">
+    <link rel="canonical" href="https://harmonyastroapps.github.io/VoiceClockApp/faq.html">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Voice Clock FAQ">
+    <meta property="og:url" content="https://harmonyastroapps.github.io/VoiceClockApp/faq.html">
+    <meta name="twitter:card" content="summary">
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "How does Voice Clock help with ADHD?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "ADHD often involves time-blindness — difficulty perceiving time. Voice Clock speaks the time at intervals you set, providing external time awareness without requiring screen checking. This helps you stay on schedule and maintain focus."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Does Voice Clock work offline?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes. Voice Clock is fully functional offline. Time announcements use your device's system sounds and local time, no internet required."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How many languages does Voice Clock support?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Voice Clock supports 15+ languages including English, Spanish, French, German, Japanese, Mandarin, Arabic, Hindi, and more — each with natural native voices."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Can I customize how often the time is announced?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes. You can set announcements at any interval: every 5 minutes, every hour, at specific times, or clock-aligned (on the hour/half-hour). Fully customizable to your needs."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Is Voice Clock good for accessibility?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Absolutely. Blind and low-vision users can access time independently. The app is designed with accessibility in mind from day one."
+          }
+        }
+      ]
+    }
+    </script>
     <style>
-        /* RTL Support */
-        [dir="rtl"] .faq-question {
-            text-align: right;
-            flex-direction: row-reverse;
-        }
-        [dir="rtl"] .faq-question span {
-            padding-right: 0;
-            padding-left: 1rem;
-        }
-        [dir="rtl"] .faq-section-description {
-            padding-left: 0;
-            padding-right: 66px;
-        }
-        [dir="rtl"] .faq-section-header {
-            flex-direction: row-reverse;
-        }
-        [dir="rtl"] .faq-info-item {
-            border-left: none;
-            border-right: 3px solid var(--primary-color);
-            flex-direction: row-reverse;
-        }
-        [dir="rtl"] .faq-answer ul li {
-            padding-left: 0;
-            padding-right: 1.5rem;
-        }
-        [dir="rtl"] .faq-answer ul li::before {
-            left: auto;
-            right: 0;
-        }
-        [dir="rtl"] .faq-steps li {
-            padding-left: 0;
-            padding-right: 3rem;
-        }
-        [dir="rtl"] .faq-steps li::before {
-            left: auto;
-            right: 0;
-        }
-        [dir="rtl"] .faq-nav-item {
-            flex-direction: row-reverse;
-        }
-        [dir="rtl"] .nav-container {
-            flex-direction: row-reverse;
-        }
-        [dir="rtl"] .nav-links {
-            flex-direction: row-reverse;
-        }
-        [dir="rtl"] .footer-links {
-            flex-direction: row-reverse;
-        }
-        [dir="rtl"] .faq-contact .btn-primary {
-            flex-direction: row-reverse;
-        }
-        @media (max-width: 768px) {
-            [dir="rtl"] .faq-section-description {
-                padding-right: 0;
-            }
-        }
-
-        /* Language selector */
-        .lang-selector {
-            position: relative;
-            display: inline-block;
-        }
-        .lang-selector-btn {
-            background: transparent;
-            border: 2px solid var(--primary-color);
-            color: var(--primary-color);
-            padding: 0.4rem 0.8rem;
-            border-radius: 4px;
-            cursor: pointer;
-            font-weight: 500;
-            font-size: 0.85rem;
-            transition: all 0.3s ease;
-            display: flex;
-            align-items: center;
-            gap: 0.4rem;
-        }
-        .lang-selector-btn:hover {
-            background: var(--primary-color);
-            color: white;
-        }
-        .lang-dropdown {
-            display: none;
-            position: absolute;
-            top: 100%;
-            right: 0;
-            background: white;
-            border-radius: 8px;
-            box-shadow: 0 8px 30px rgba(0,0,0,0.15);
-            min-width: 160px;
-            z-index: 2000;
-            margin-top: 0.5rem;
-            overflow: hidden;
-        }
-        .lang-dropdown.active {
-            display: block;
-        }
-        .lang-dropdown a {
-            display: block;
-            padding: 0.6rem 1rem;
-            color: var(--text-color);
-            text-decoration: none;
-            font-size: 0.9rem;
-            transition: background 0.2s;
-        }
-        .lang-dropdown a:hover,
-        .lang-dropdown a.current {
-            background: var(--background-color);
-            color: var(--primary-color);
-            font-weight: 600;
-        }
-        [dir="rtl"] .lang-dropdown {
-            right: auto;
-            left: 0;
-        }
-
-        /* Loading state */
-        .faq-loading {
-            text-align: center;
-            padding: 4rem 0;
-            color: var(--text-light);
-        }
-        .faq-loading i {
-            font-size: 2rem;
-            animation: spin 1s linear infinite;
-            margin-bottom: 1rem;
-            display: block;
-        }
-        @keyframes spin {
-            from { transform: rotate(0deg); }
-            to { transform: rotate(360deg); }
-        }
+        :root { --primary: #4F46E5; --bg: #f9fafb; --card: #ffffff; --text: #1f2937; --text-muted: #6b7280; }
+        @media (prefers-color-scheme: dark) { :root { --primary: #7F77F1; --bg: #0f1115; --card: #1c1e24; --text: #f9fafb; --text-muted: #9ca3af; } }
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; background: var(--bg); color: var(--text); line-height: 1.7; }
+        header { background: var(--card); padding: 20px 0; box-shadow: 0 2px 4px rgba(0,0,0,0.1); position: sticky; top: 0; z-index: 100; }
+        .container { max-width: 760px; margin: 0 auto; padding: 0 20px; }
+        nav { display: flex; justify-content: space-between; align-items: center; }
+        .logo { font-size: 1.5rem; font-weight: 700; color: var(--primary); text-decoration: none; }
+        .nav-links a { margin-left: 20px; text-decoration: none; color: var(--text); }
+        main { padding: 40px 20px; }
+        h1 { font-size: 2.5rem; color: var(--primary); margin-bottom: 10px; }
+        .lead { font-size: 1.1rem; color: var(--text-muted); margin-bottom: 32px; }
+        h2 { margin-top: 36px; font-size: 1.3rem; margin-bottom: 20px; }
+        .faq-item { background: var(--card); border-radius: 8px; padding: 20px; margin-bottom: 16px; border-left: 4px solid var(--primary); }
+        .faq-q { font-weight: 700; margin-bottom: 8px; }
+        .faq-a { color: var(--text-muted); }
+        a { color: var(--primary); }
+        footer { text-align: center; padding: 40px 0; opacity: 0.7; margin-top: 60px; }
     </style>
 </head>
 <body>
-    <!-- Navigation -->
-    <nav class="nav">
-        <div class="container nav-container">
-            <div class="logo">
-                <a href="index.html" style="text-decoration: none; color: inherit;">
-                    <h2>Voice Clock Time Speaker</h2>
-                </a>
-            </div>
-            <button class="hamburger" aria-label="Toggle menu" aria-expanded="false">
-                <span></span>
-                <span></span>
-                <span></span>
-            </button>
-            <div class="nav-links">
-                <a href="index.html#features" data-i18n="nav.features">Features</a>
-                <a href="index.html#contact" data-i18n="nav.contact">Contact</a>
-                <a href="#" class="active" data-i18n="nav.faq">FAQ</a>
-                <div class="lang-selector">
-                    <button class="lang-selector-btn" id="langSelectorBtn">
-                        <i class="fas fa-globe"></i>
-                        <span id="currentLangLabel">English</span>
-                        <i class="fas fa-chevron-down" style="font-size: 0.7rem;"></i>
-                    </button>
-                    <div class="lang-dropdown" id="langDropdown"></div>
-                </div>
-            </div>
-        </div>
-    </nav>
-
-    <!-- FAQ Hero Section -->
-    <section class="faq-hero">
+    <header>
         <div class="container">
-            <div class="faq-hero-content animate-fade-in">
-                <h1 id="faqHeroTitle">Frequently Asked Questions</h1>
-                <p class="faq-hero-subtitle" id="faqHeroSubtitle">Everything you need to know about Voice Clock Time Speaker</p>
-            </div>
-        </div>
-    </section>
-
-    <!-- Quick Navigation -->
-    <section class="faq-nav-section">
-        <div class="container">
-            <div class="faq-quick-nav" id="quickNav">
-                <!-- Rendered dynamically -->
-            </div>
-        </div>
-    </section>
-
-    <!-- FAQ Content -->
-    <main class="faq-content">
-        <div class="container" id="faqContainer">
-            <div class="faq-loading">
-                <i class="fas fa-spinner"></i>
-                <p>Loading FAQ...</p>
+            <nav>
+                <a href="index.html" class="logo">Voice Clock</a>
+                <div class="nav-links">
+                    <a href="index.html">Home</a>
+                    <a href="blog/index.html">Blog</a>
+                    <a href="about.html">About</a>
+                    <a href="faq.html">FAQ</a>
                 </div>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <div class="container">
+            <h1>Voice Clock FAQ</h1>
+            <p class="lead">Common questions about Voice Clock, answered.</p>
+
+            <h2>General</h2>
+
+            <div class="faq-item">
+                <div class="faq-q">How does Voice Clock help with ADHD?</div>
+                <div class="faq-a">ADHD often involves time-blindness. Voice Clock speaks the time at intervals you set, providing external awareness without screen checking. This helps you stay on schedule and focused.</div>
+            </div>
+
+            <div class="faq-item">
+                <div class="faq-q">Does Voice Clock work offline?</div>
+                <div class="faq-a">Yes, fully. All functionality is local — no internet required for time announcements.</div>
+            </div>
+
+            <div class="faq-item">
+                <div class="faq-q">How many languages does Voice Clock support?</div>
+                <div class="faq-a">15+ languages including English, Spanish, French, German, Japanese, Mandarin, Arabic, Hindi, and more — each with natural voices.</div>
+            </div>
+
+            <h2>Features</h2>
+
+            <div class="faq-item">
+                <div class="faq-q">Can I customize announcement intervals?</div>
+                <div class="faq-a">Yes. Set announcements every 5 min, hourly, or at specific times. Fully customizable.</div>
+            </div>
+
+            <div class="faq-item">
+                <div class="faq-q">Is Voice Clock good for accessibility?</div>
+                <div class="faq-a">Absolutely. Blind and low-vision users can access time independently. Built with accessibility in mind.</div>
+            </div>
+
+            <h2>Support</h2>
+
+            <div class="faq-item">
+                <div class="faq-q">How do I contact support?</div>
+                <div class="faq-a">Email <a href="mailto:harmonyastroapp@gmail.com">harmonyastroapp@gmail.com</a></div>
+            </div>
         </div>
     </main>
 
-    <!-- Still Have Questions Section -->
-    <section class="faq-contact">
-        <div class="container">
-            <div class="faq-contact-content">
-                <i class="fas fa-envelope-open-text"></i>
-                <h2 id="contactTitle">Still Have Questions?</h2>
-                <p id="contactDescription">We're always happy to help! Reach out and we'll get back to you as soon as possible.</p>
-                <a href="mailto:harmonyastroapp@gmail.com" class="btn btn-primary">
-                    <i class="fas fa-paper-plane"></i>
-                    <span id="contactButton">Contact Us</span>
-                </a>
-            </div>
-        </div>
-    </section>
-
-    <!-- Footer -->
     <footer>
         <div class="container">
-            <div class="footer-content">
-                <div class="footer-links">
-                    <a href="index.html" data-i18n="nav.home">Home</a>
-                    <a href="index.html#features" data-i18n="nav.features">Features</a>
-                    <a href="index.html#privacy" data-i18n="nav.privacy">Privacy Policy</a>
-                    <a href="index.html#contact" data-i18n="nav.contact">Contact</a>
-                    <a href="faq.html" data-i18n="nav.faq">FAQ</a>
-                </div>
-                <p id="footerCopyright">&copy; 2024 Voice Clock Time Speaker. All rights reserved.</p>
-            </div>
+            <p>&copy; 2026 HarmonyAstroApps. All rights reserved.</p>
         </div>
     </footer>
-
-    <script>
-        // =====================================================
-        // Multi-language FAQ Renderer with English Fallback
-        // =====================================================
-
-        const SUPPORTED_LANGUAGES = {
-            'en': 'English',
-            'ja': '日本語',
-            'ar': 'العربية',
-            'de': 'Deutsch',
-            'es': 'Español',
-            'fr': 'Français',
-            'ko': '한국어',
-            'pt': 'Português',
-            'ru': 'Русский',
-            'zh-Hans': '中文(简体)'
-        };
-
-        const RTL_LANGUAGES = ['ar'];
-
-        let enData = null; // English fallback
-        let currentData = null;
-        let currentLang = 'en';
-
-        // Get language from URL parameter or default to English
-        function getLanguage() {
-            const params = new URLSearchParams(window.location.search);
-            const lang = params.get('lang');
-            if (lang && SUPPORTED_LANGUAGES[lang]) {
-                return lang;
-            }
-            return 'en';
-        }
-
-        // Load a JSON translation file
-        async function loadTranslation(lang) {
-            try {
-                const response = await fetch(`src/faq-translations/${lang}.json`);
-                if (!response.ok) throw new Error(`HTTP ${response.status}`);
-                return await response.json();
-            } catch (e) {
-                console.warn(`Failed to load ${lang}.json, falling back to English`, e);
-                return null;
-            }
-        }
-
-        // Get a nested value with dot notation, with English fallback
-        function t(key) {
-            const keys = key.split('.');
-            let value = currentData;
-            let fallback = enData;
-
-            for (const k of keys) {
-                value = value ? value[k] : undefined;
-                fallback = fallback ? fallback[k] : undefined;
-            }
-
-            return value || fallback || '';
-        }
-
-        // Set text direction for RTL languages
-        function setDirection(lang) {
-            if (RTL_LANGUAGES.includes(lang)) {
-                document.documentElement.dir = 'rtl';
-                document.documentElement.lang = lang;
-            } else {
-                document.documentElement.dir = 'ltr';
-                document.documentElement.lang = lang;
-            }
-        }
-
-        // Build the language dropdown
-        function buildLanguageDropdown() {
-            const dropdown = document.getElementById('langDropdown');
-            const currentLabel = document.getElementById('currentLangLabel');
-
-            currentLabel.textContent = SUPPORTED_LANGUAGES[currentLang];
-
-            dropdown.innerHTML = '';
-            for (const [code, name] of Object.entries(SUPPORTED_LANGUAGES)) {
-                const a = document.createElement('a');
-                a.href = `faq.html?lang=${code}`;
-                a.textContent = name;
-                if (code === currentLang) {
-                    a.classList.add('current');
-                }
-                dropdown.appendChild(a);
-            }
-
-            // Toggle dropdown
-            const btn = document.getElementById('langSelectorBtn');
-            btn.addEventListener('click', (e) => {
-                e.stopPropagation();
-                dropdown.classList.toggle('active');
-            });
-
-            // Close on outside click
-            document.addEventListener('click', () => {
-                dropdown.classList.remove('active');
-            });
-        }
-
-        // Render quick navigation
-        function renderQuickNav() {
-            const nav = document.getElementById('quickNav');
-            const sections = currentData?.sections || enData?.sections || [];
-            const quickNavLabels = {
-                'background-capability': t('quickNav.backgroundMode'),
-                'sounds': t('quickNav.sounds'),
-                'scheduled-announcements': t('quickNav.scheduledAnnouncements'),
-                'general': t('quickNav.general')
-            };
-
-            nav.innerHTML = sections.map(section => {
-                const label = quickNavLabels[section.id] || section.title || '';
-                const icon = section.icon || 'fa-circle-question';
-                return `
-                    <a href="#${section.id}" class="faq-nav-item">
-                        <i class="fas ${icon}"></i>
-                        <span>${label}</span>
-                    </a>
-                `;
-            }).join('');
-        }
-
-        // Render all FAQ sections
-        function renderFAQ() {
-            const container = document.getElementById('faqContainer');
-            const sections = enData?.sections || [];
-
-            container.innerHTML = sections.map((enSection, sIdx) => {
-                const langSection = currentData?.sections?.[sIdx];
-                const title = langSection?.title || enSection.title;
-                const description = langSection?.description || enSection.description;
-                const icon = enSection.icon;
-                const id = enSection.id;
-
-                const questions = (enSection.questions || []).map((enQ, qIdx) => {
-                    const langQ = langSection?.questions?.[qIdx];
-                    const q = langQ?.q || enQ.q;
-                    const a = langQ?.a || enQ.a;
-
-                    return `
-                        <div class="faq-item">
-                            <button class="faq-question">
-                                <span>${q}</span>
-                                <i class="fas fa-chevron-down"></i>
-                            </button>
-                            <div class="faq-answer">
-                                ${a}
-                            </div>
-                        </div>
-                    `;
-                }).join('');
-
-                return `
-                    <section id="${id}" class="faq-section">
-                        <div class="faq-section-header">
-                            <i class="fas ${icon}"></i>
-                            <h2>${title}</h2>
-                        </div>
-                        <p class="faq-section-description">${description}</p>
-                        <div class="faq-list">
-                            ${questions}
-                        </div>
-                    </section>
-                `;
-            }).join('');
-
-            // Update static text elements
-            document.getElementById('faqHeroTitle').textContent = t('hero.title');
-            document.getElementById('faqHeroSubtitle').textContent = t('hero.subtitle');
-            document.getElementById('contactTitle').textContent = t('contactSection.title');
-            document.getElementById('contactDescription').textContent = t('contactSection.description');
-            document.getElementById('contactButton').textContent = t('contactSection.buttonText');
-            document.getElementById('footerCopyright').textContent = t('footer.copyright');
-
-            // Update page title and meta
-            document.title = t('meta.pageTitle');
-            const metaDesc = document.querySelector('meta[name="description"]');
-            if (metaDesc) {
-                metaDesc.content = t('meta.pageDescription');
-            }
-
-            // Update nav links with data-i18n
-            document.querySelectorAll('[data-i18n]').forEach(el => {
-                const key = el.getAttribute('data-i18n');
-                const value = t(key);
-                if (value) el.textContent = value;
-            });
-
-            // Re-attach accordion after render
-            attachAccordion();
-            attachSmoothScroll();
-            attachScrollSpy();
-        }
-
-        // FAQ Accordion functionality
-        function attachAccordion() {
-        document.querySelectorAll('.faq-question').forEach(button => {
-            button.addEventListener('click', () => {
-                const faqItem = button.parentElement;
-                const isActive = faqItem.classList.contains('active');
-                
-                // Close all other items
-                document.querySelectorAll('.faq-item').forEach(item => {
-                    item.classList.remove('active');
-                });
-                
-                // Toggle current item
-                if (!isActive) {
-                    faqItem.classList.add('active');
-                }
-            });
-        });
-        }
-
-        // Smooth scroll for anchor links
-        function attachSmoothScroll() {
-        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
-            anchor.addEventListener('click', function (e) {
-                e.preventDefault();
-                const target = document.querySelector(this.getAttribute('href'));
-                if (target) {
-                    const navHeight = document.querySelector('.nav').offsetHeight;
-                    const targetPosition = target.getBoundingClientRect().top + window.pageYOffset - navHeight - 20;
-                    window.scrollTo({
-                        top: targetPosition,
-                        behavior: 'smooth'
-                    });
-                }
-            });
-        });
-        }
-
-        // Highlight active section in quick nav on scroll
-        function attachScrollSpy() {
-        const sections = document.querySelectorAll('.faq-section');
-        const navItems = document.querySelectorAll('.faq-nav-item');
-
-        window.addEventListener('scroll', () => {
-            let current = '';
-            const navHeight = document.querySelector('.nav').offsetHeight;
-            
-            sections.forEach(section => {
-                const sectionTop = section.offsetTop - navHeight - 100;
-                if (window.pageYOffset >= sectionTop) {
-                    current = section.getAttribute('id');
-                }
-            });
-
-            navItems.forEach(item => {
-                item.classList.remove('active');
-                if (item.getAttribute('href') === '#' + current) {
-                    item.classList.add('active');
-                }
-            });
-        });
-        }
-
-        // Mobile hamburger menu toggle
-        function initHamburger() {
-            const hamburger = document.querySelector('.hamburger');
-            const navLinks = document.querySelector('.nav-links');
-
-            if (!hamburger || !navLinks) return;
-
-            hamburger.addEventListener('click', () => {
-                hamburger.classList.toggle('active');
-                navLinks.classList.toggle('active');
-                hamburger.setAttribute('aria-expanded',
-                    hamburger.classList.contains('active').toString());
-                document.body.style.overflow = hamburger.classList.contains('active') ? 'hidden' : '';
-            });
-
-            navLinks.querySelectorAll('a').forEach(link => {
-                link.addEventListener('click', () => {
-                    hamburger.classList.remove('active');
-                    navLinks.classList.remove('active');
-                    hamburger.setAttribute('aria-expanded', 'false');
-                    document.body.style.overflow = '';
-                });
-            });
-        }
-
-        // Main initialization
-        async function init() {
-            currentLang = getLanguage();
-
-            // Always load English as the fallback
-            enData = await loadTranslation('en');
-
-            if (currentLang !== 'en') {
-                currentData = await loadTranslation(currentLang);
-                if (!currentData) {
-                    currentData = enData; // Full fallback to English
-                }
-            } else {
-                currentData = enData;
-            }
-
-            // Set direction (RTL/LTR)
-            setDirection(currentLang);
-
-            // Build UI
-            buildLanguageDropdown();
-            renderQuickNav();
-            renderFAQ();
-            initHamburger();
-        }
-
-        // Start
-        document.addEventListener('DOMContentLoaded', init);
-    </script>
 </body>
 </html>
