@@ -1,44 +1,57 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:image="http://www.google.com/schemas/sitemap-image/0.9">
   <url>
     <loc>https://harmonyastroapps.github.io/VoiceClockApp/</loc>
-    <lastmod>2026-04-17</lastmod>
+    <lastmod>2026-04-22</lastmod>
     <changefreq>monthly</changefreq>
     <priority>1.0</priority>
+    <image:image>
+      <image:loc>https://harmonyastroapps.github.io/VoiceClockApp/public/images/content/voice_clock_ss/tt_ss.png</image:loc>
+      <image:title>Voice Clock Time Speaker - Hands-free talking clock for iOS</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://harmonyastroapps.github.io/VoiceClockApp/public/images/content/voice_clock_ss/1.png</image:loc>
+      <image:title>Voice Clock - Stress-free mornings, never run late</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://harmonyastroapps.github.io/VoiceClockApp/public/images/content/voice_clock_ss/2.png</image:loc>
+      <image:title>Voice Clock - Eyes-free, hands-free time updates</image:title>
+    </image:image>
   </url>
   <url>
     <loc>https://harmonyastroapps.github.io/VoiceClockApp/about.html</loc>
-    <lastmod>2026-04-17</lastmod>
+    <lastmod>2026-04-22</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://harmonyastroapps.github.io/VoiceClockApp/faq.html</loc>
-    <lastmod>2026-04-17</lastmod>
+    <lastmod>2026-04-22</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://harmonyastroapps.github.io/VoiceClockApp/blog/</loc>
-    <lastmod>2026-04-17</lastmod>
+    <lastmod>2026-04-22</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://harmonyastroapps.github.io/VoiceClockApp/blog/stay-on-schedule-with-adhd.html</loc>
-    <lastmod>2026-04-17</lastmod>
+    <lastmod>2026-04-22</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://harmonyastroapps.github.io/VoiceClockApp/blog/best-voice-apps-accessibility.html</loc>
-    <lastmod>2026-04-17</lastmod>
+    <lastmod>2026-04-22</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://harmonyastroapps.github.io/VoiceClockApp/blog/voice-announcements-vs-notifications.html</loc>
-    <lastmod>2026-04-17</lastmod>
+    <lastmod>2026-04-22</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
