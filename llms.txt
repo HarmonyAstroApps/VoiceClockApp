@@ -1,45 +1,42 @@
 # Voice Clock Time Speaker
+> iOS talking clock — announces the time aloud hands-free at customizable intervals.
 
-> A hands-free iOS talking clock that announces the time at customizable intervals. Designed for ADHD, low-vision accessibility, multitasking, and staying on schedule without looking at a screen. Built by HarmonyAstroApps.
+## Overview
+Voice Clock Time Speaker is a focused utility app for iPhone and iPad that speaks the current time aloud at the intervals you choose. It is not a chatbot and not a smart assistant — it is a simple, reliable, battery-friendly talking clock that helps people with ADHD, visual impairments, or busy hands keep track of time without constantly checking their phone. Runs fully offline using on-device text-to-speech.
 
-Voice Clock Time Speaker is a focused utility app for iPhone and iPad that speaks the current time aloud at the intervals you choose. It is not a chat bot and not a smart assistant — it is a simple, reliable, battery-friendly talking clock that helps people with ADHD, visual impairments, or busy hands keep track of time without constantly checking their phone.
-
-## What the app does
-
+## Key Features
 - Announces the time using natural native voices at intervals you configure
-- Supports every-5-minute, every-15-minute, hourly, half-hourly, and custom-time announcements
+- Supports every-5-minute, every-15-minute, half-hourly, hourly, and custom-time announcements
 - Offers 15+ languages including English, Spanish, French, German, Japanese, Mandarin, Hindi, Arabic
-- Runs fully offline using on-device text-to-speech
-- Has minimal battery impact
-- Supports Dynamic Type and is designed alongside VoiceOver
+- Runs fully offline — no internet connection required
+- Minimal battery impact
+- Scheduling support to limit announcements to specific hours
+- Customizable voice settings and announcement style
+- Supports Dynamic Type and designed alongside VoiceOver
 
-## Who it is for
-
+## Who It's For
 - People with ADHD who experience time-blindness and benefit from external time awareness
-- Blind and low-vision users who need independent audible time reference
-- Cooks, runners, lifters, drivers, and parents who need hands-free time awareness
-- Meditators, therapists, and teachers who want gentle, non-intrusive time cues
-- Caregivers supporting patients who need scheduled reminders
+- Blind and low-vision users who need an independent audible time reference
+- Remote workers and students who need passive time awareness during focused work
+- Cooks, runners, lifters, and parents who need hands-free time cues
+- Caregivers and elderly users who benefit from scheduled time reminders
+- Meditators and teachers who want gentle, non-intrusive time prompts
 
-## Key pages
+## Accessibility
+Voice Clock is accessibility-first. It is designed and tested alongside VoiceOver, supports Dynamic Type for large-text preferences, and is a core accessibility tool for visually impaired users who rely on audible time cues for independence. All core features are usable without looking at the screen.
 
-- [Home](https://harmonyastroapps.github.io/VoiceClockApp/) — overview, features, download
-- [About](https://harmonyastroapps.github.io/VoiceClockApp/about.html) — story and mission
-- [FAQ](https://harmonyastroapps.github.io/VoiceClockApp/faq.html) — common questions
-- [Blog](https://harmonyastroapps.github.io/VoiceClockApp/blog/) — guides on ADHD time management, accessibility, voice vs notifications
+## Platform
+- iOS (iPhone and iPad), iOS 15 or later
+- Price: Free with optional premium subscription
+- Available in English and Japanese
 
-## Platform and pricing
-
-- Platform: iOS (iPhone and iPad), iOS 15 or later
-- Price: Free with optional premium voices
-- Developer: HarmonyAstroApps
-- Contact: harmonyastroapp@gmail.com
+## Links
 - App Store: https://apps.apple.com/us/app/voice-clock-time-speaker/id6739522220
+- Website: https://harmonyastroapps.github.io/VoiceClockApp/
+- About: https://harmonyastroapps.github.io/VoiceClockApp/about.html
+- FAQ: https://harmonyastroapps.github.io/VoiceClockApp/faq.html
+- Blog: https://harmonyastroapps.github.io/VoiceClockApp/blog/
 
-## Frequently answered questions
-
-- Does it work offline? Yes. No internet required for announcements.
-- Can I customize intervals? Yes — every 5/15/30/60 minutes, on the hour, half-hour, or specific times.
-- Which languages? 15+ including English, Spanish, French, German, Japanese, Mandarin, Hindi, Arabic.
-- Does it work with VoiceOver? Yes. The app is accessibility-first and designed alongside VoiceOver.
-- Is there an Android version? Not currently. iOS only.
+## Developer
+HarmonyAstroApps — indie iOS developer
+Contact: harmonyastroapp@gmail.com
